@@ -1,7 +1,7 @@
 {
     "availableInstances": [
         {
-            "instanceId": "0",
+            "instanceId": 0,
             "instanceVersion": "1.20.1",
             "instanceTheme": "Classic Vanilla+",
             "instanceDescription": "O Vanilla+ Clássico, o mais próximo possível do Minecraft Vanilla, porém, com novos sistemas que já deveriam estar inclusos no jogo Vanilla, e com melhorias que já deveriam estar presentes nos sistemas já existentes no Vanilla.",
