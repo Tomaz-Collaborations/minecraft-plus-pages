@@ -35,6 +35,24 @@
             "docsPostDataDownloadConfigFileToEdit": "",
             "docsPostDataDownloadConfigFileDestinationFolder": "",
             "dataDownloadIndexUrl": ""
+        },
+        {
+            "instanceId": 1,
+            "instanceFolderName": "",
+            "instanceVersion": "1.20.1",
+            "instanceTheme": "Hide'n Seek Vanilla+",
+            "instanceDescription": "Um Vanilla+, porém, só mods que permitem a bricandeira de Hide And Seek, ou Esconde-Esconde. Os escondedores devem ser encolhidos para tamanhos muito pequenos, enquanto os procuradores devem achar escondedores e elimina-los com a ajuda de armas pesadas!",
+            "currentDataVersion": 1,
+            "requiresJava": "17.0.2",
+            "requiredJavaUrl": "",
+            "iconUrl": "",
+            "backgroundVideoUrl": "",
+            "backgroundImageUrl": "",
+            "logoUrl": "",
+            "docsHtmlFilePathInsideInstance": "",
+            "docsPostDataDownloadConfigFileToEdit": "",
+            "docsPostDataDownloadConfigFileDestinationFolder": "",
+            "dataDownloadIndexUrl": ""
         }
     ],
     "catalogVersion": "1.0.0"
