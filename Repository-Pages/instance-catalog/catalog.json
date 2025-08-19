@@ -2,13 +2,13 @@
     "availableInstances": [
         {
             "instanceId": 0,
-            "instanceFolderName": "",
+            "instanceFolderName": "/1.20.1 Classic Vanilla+",
             "instanceVersion": "1.20.1",
             "instanceTheme": "Classic Vanilla+",
             "instanceDescription": "O Vanilla+ Clássico, o mais próximo possível do Minecraft Vanilla, porém, com novos sistemas que já deveriam estar inclusos no jogo Vanilla, e com melhorias que já deveriam estar presentes nos sistemas já existentes no Vanilla.",
             "currentDataVersion": 1,
             "requiresJava": "17.0.2",
-            "requiredJavaUrl": "",
+            "requiredJavaUrl": "https://tomaz-collaborations.github.io/minecraft-plus-pages/Repository-Pages/java-openjdk/17.0.2/openjdk-data-info.json",
             "iconUrl": "",
             "backgroundVideoUrl": "",
             "backgroundImageUrl": "",
