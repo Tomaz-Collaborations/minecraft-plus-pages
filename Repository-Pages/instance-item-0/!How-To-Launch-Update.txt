@@ -2,11 +2,12 @@
    (The folder that will be copied, will be the modpack instance files, which will be added to the game data (Prism Launcher)
    base that was downloaded to the user's computer. Therefore, these files will be things like mods, mod configurations, resource packs, etc. 
    They will be installed inside the "instances" folder of the Prism Launcher on the players computers.)
-2. Using 7-Zip, compact the copied folder, but splitting into pieces of 10MB
+2. Inside of the copyied folder (example, the "1.20.1 Classic Vanilla+" folder), delete the file "local-version.txt" and possibles Save Games
+3. Using 7-Zip, compact the copied folder, but splitting into pieces of 10MB
    The name of the parts must be like "instance-data.zip.XXX"
-3. Copy all compression parts to the folder "Repository-Pages/instance-item-X" (according to the ID of the instance)
-4. Update the file "instance-data-info.json" in the same folder of repository, to have the links of each part of the ZIP
+4. Copy all compression parts to the folder "Repository-Pages/instance-item-X" (according to the ID of the instance)
+5. Update the file "instance-data-info.json" in the same folder of repository, to have the links of each part of the ZIP
    file for download in this repository.
-5. Update the file "catalog.json" in folder "Repository-Pages/instance-catalog" to have the correct version of the instance data. Users with
+6. Update the file "catalog.json" in folder "Repository-Pages/instance-catalog" to have the correct version of the instance data. Users with
    different versions of instance data, will be notified about a update of the instance data, when select the instance to play.
-5. The Launcher will download these data and apply on Minecraft+ Launcher of the players.
+7. The Launcher will download these data and apply on Minecraft+ Launcher of the players.

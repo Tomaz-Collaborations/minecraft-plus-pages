@@ -6,16 +6,33 @@
             "instanceVersion": "1.20.1",
             "instanceTheme": "Classic Vanilla+",
             "instanceDescription": "O Vanilla+ Clássico, o mais próximo possível do Minecraft Vanilla, porém, com novos \n sistemas que já deveriam estar inclusos no jogo Vanilla, e com melhorias que já deveriam estar \n presentes nos sistemas já existentes no Vanilla.",
-            "currentDataVersion": 1,
+            "currentDataVersion": 2,
             "requiresJava": "17.0.2",
             "requiredJavaUrl": "https://tomaz-collaborations.github.io/minecraft-plus-pages/Repository-Pages/java-openjdk/17.0.2/openjdk-data-info.json",
             "iconUrl": "https://tomaz-collaborations.github.io/minecraft-plus-pages/Repository-Pages/instance-item-0/metadata/icon.png",
             "backgroundVideoUrl": "https://tomaz-collaborations.github.io/minecraft-plus-pages/Repository-Pages/instance-item-0/metadata/video-info.json",
             "backgroundImageUrl": "https://tomaz-collaborations.github.io/minecraft-plus-pages/Repository-Pages/instance-item-0/metadata/background.png",
             "logoUrl": "https://tomaz-collaborations.github.io/minecraft-plus-pages/Repository-Pages/instance-item-0/metadata/logo.png",
-            "docsHtmlFilePathInsideInstance": "",
-            "docsPostDataDownloadConfigFileToEdit": "",
-            "docsPostDataDownloadConfigFileDestinationFolder": "",
+            "textFilesToPatchInData": [
+                {
+                    "fileTemplatePathInsideInstance": "/minecraft/config/mcbrowser_template.json",
+                    "keysAndValuesToPatchInTemplateFile": [
+                        {
+                            "key": "{DOC_PATH}",
+                            "type": "VARIABLE",
+                            "value": "INSTANCE_HTML_DOCUMENTATION_PATH",
+                            "contextOptionalStrings": [ "/documentation/Documentation.html" ]
+                        },
+                        {
+                            "key": "{BROWSER_FPS}",
+                            "type": "TEXT",
+                            "value": "60",
+                            "contextOptionalStrings": [ ]
+                        }
+                    ],
+                    "fileToBePatchedPathInsideInstance": "/minecraft/config/mcbrowser.json"
+                }
+            ],
             "dataDownloadIndexUrl": "https://tomaz-collaborations.github.io/minecraft-plus-pages/Repository-Pages/instance-item-0/instance-data-info.json"
         },
         {
@@ -31,10 +48,27 @@
             "backgroundVideoUrl": "https://tomaz-collaborations.github.io/minecraft-plus-pages/Repository-Pages/instance-item-1/metadata/video-info.json",
             "backgroundImageUrl": "https://tomaz-collaborations.github.io/minecraft-plus-pages/Repository-Pages/instance-item-1/metadata/background.png",
             "logoUrl": "https://tomaz-collaborations.github.io/minecraft-plus-pages/Repository-Pages/instance-item-1/metadata/logo.png",
-            "docsHtmlFilePathInsideInstance": "",
-            "docsPostDataDownloadConfigFileToEdit": "",
-            "docsPostDataDownloadConfigFileDestinationFolder": "",
-            "dataDownloadIndexUrl": ""
+            "textFilesToPatchInData": [
+                {
+                    "fileTemplatePathInsideInstance": "/minecraft/config/mcbrowser_template.json",
+                    "keysAndValuesToPatchInTemplateFile": [
+                        {
+                            "key": "{DOC_PATH}",
+                            "type": "VARIABLE",
+                            "value": "INSTANCE_HTML_DOCUMENTATION_PATH",
+                            "contextOptionalStrings": [ "/documentation/Documentation.html" ]
+                        },
+                        {
+                            "key": "{BROWSER_FPS}",
+                            "type": "TEXT",
+                            "value": "60",
+                            "contextOptionalStrings": [ ]
+                        }
+                    ],
+                    "fileToBePatchedPathInsideInstance": "/minecraft/config/mcbrowser.json"
+                }
+            ],
+            "dataDownloadIndexUrl": "https://tomaz-collaborations.github.io/minecraft-plus-pages/Repository-Pages/instance-item-1/instance-data-info.json"
         }
     ],
     "catalogVersion": "1.0.0"
