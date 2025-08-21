@@ -33,6 +33,8 @@
                     "fileToBePatchedPathInsideInstance": "/minecraft/config/mcbrowser.json"
                 }
             ],
+            "optimizedOptionsUrl": "https://tomaz-collaborations.github.io/minecraft-plus-pages/Repository-Pages/instance-item-0/optimized-options/options.txt",
+            "optimizedOptionsToApplyInGameUrl": "https://tomaz-collaborations.github.io/minecraft-plus-pages/Repository-Pages/instance-item-0/optimized-options/options-to-apply-in-clients.ini",
             "dataDownloadIndexUrl": "https://tomaz-collaborations.github.io/minecraft-plus-pages/Repository-Pages/instance-item-0/instance-data-info.json"
         },
         {
@@ -68,6 +70,8 @@
                     "fileToBePatchedPathInsideInstance": "/minecraft/config/mcbrowser.json"
                 }
             ],
+            "optimizedOptionsUrl": "https://tomaz-collaborations.github.io/minecraft-plus-pages/Repository-Pages/instance-item-1/optimized-options/options.txt",
+            "optimizedOptionsToApplyInGameUrl": "https://tomaz-collaborations.github.io/minecraft-plus-pages/Repository-Pages/instance-item-1/optimized-options/options-to-apply-in-clients.ini",
             "dataDownloadIndexUrl": "https://tomaz-collaborations.github.io/minecraft-plus-pages/Repository-Pages/instance-item-1/instance-data-info.json"
         }
     ],
