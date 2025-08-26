@@ -42,6 +42,9 @@
             "resourcePacksFolderPath": "/minecraft/resourcepacks",
             "savesFolderPath": "/minecraft/saves",
             "screenshotsFolderPath": "/minecraft/screenshots",
+            "isUpdatableUsingSmartUpdater": true,
+            "smartUpdaterFoldersListToKeep": [ "/minecraft/cachedImages", "/minecraft/saves", "/minecraft/screenshots", "/minecraft/shaderpacks" ],
+            "smartUpdaterFilesListToKeep": [ "/minecraft/options.txt" ],
             "dataDownloadIndexUrl": "https://tomaz-collaborations.github.io/minecraft-plus-pages/Repository-Pages/instance-item-0/instance-data-info.json"
         },
         {
@@ -86,6 +89,9 @@
             "resourcePacksFolderPath": "/minecraft/resourcepacks",
             "savesFolderPath": "/minecraft/saves",
             "screenshotsFolderPath": "/minecraft/screenshots",
+            "isUpdatableUsingSmartUpdater": false,
+            "smartUpdaterFoldersListToKeep": [ ],
+            "smartUpdaterFilesListToKeep": [ ],
             "dataDownloadIndexUrl": "https://tomaz-collaborations.github.io/minecraft-plus-pages/Repository-Pages/instance-item-1/instance-data-info.json"
         }
     ],
