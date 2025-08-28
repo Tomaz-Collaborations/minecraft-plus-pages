@@ -44,7 +44,7 @@
             "screenshotsFolderPath": "/minecraft/screenshots",
             "isUpdatableUsingSmartUpdater": true,
             "smartUpdaterFoldersListToKeep": [ "/minecraft/cachedImages", "/minecraft/saves", "/minecraft/screenshots", "/minecraft/shaderpacks" ],
-            "smartUpdaterFilesListToKeep": [ "/minecraft/options.txt" ],
+            "smartUpdaterFilesListToKeep": [ "/minecraft/options.txt", "/minecraft/config/mcbrowser.json" ],
             "dataDownloadIndexUrl": "https://tomaz-collaborations.github.io/minecraft-plus-pages/Repository-Pages/instance-item-0/instance-data-info.json"
         },
         {
