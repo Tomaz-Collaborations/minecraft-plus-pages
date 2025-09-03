@@ -1,4 +1,0 @@
-[15:02:59] [WARN] [FabricLoader/Resolution]: Mod resolution failed
-[15:02:59] [INFO] [FabricLoader/Resolution]: Immediate reason: [HARD_DEP_NO_CANDIDATE chunksfadein 1.0.7-1.20.1 {depends sodium @ [>=0.5.0]}, ROOT_FORCELOAD_SINGLE chunksfadein 1.0.7-1.20.1]
-[15:02:59] [INFO] [FabricLoader/Resolution]: Reason: [HARD_DEP chunksfadein 1.0.7-1.20.1 {depends sodium @ [>=0.5.0]}]
-[15:02:59] [INFO] [FabricLoader/Resolution]: Fix: add [add:sodium 0.5.0 ([[0.5.0,∞)])], remove [], replace []
