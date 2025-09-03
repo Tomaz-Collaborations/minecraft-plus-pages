@@ -1,0 +1,363 @@
+<html lang="en-US">
+
+    <head>
+        <!-- #region HEAD -->
+        <title>Classic Vanilla+ 1.20.1 - </title>
+        <link rel="shortcut icon" type="image/png" href="DocumentationFiles/favicon/favicon.png" />
+        <link rel="shortcut icon" type="image/png" href="DocumentationFiles/favicon/favicon.png" />
+        <link rel="stylesheet" type="text/css" href="DocumentationFiles/css/rainbow-dreamweaver.css">
+        <link rel="stylesheet" type="text/css" href="DocumentationFiles/css/all-css-content.css">
+        <script src="DocumentationFiles/js/rainbow-custom.min.js"></script>
+        <script src="DocumentationFiles/js/javascript-core.js"></script>
+        <meta name="viewport" content="width=device-width">
+        <meta charset="UTF-8">
+        <!-- #endregion -->
+    </head>
+
+    <body>
+        <!-- #region TOPBAR -->
+        <div class="topBar" style="display: none;">
+            <div class="topBarLogoIcon"><img src="DocumentationFiles/logo/logo.png" height="100%" /></div>
+            <div class="topBarLogoTextContainer">
+                <div class="topBarLogoText">Documentation Template</div>
+            </div>
+            <div class="topBarItemContainer"><a href="https://www.paypal.com/donate?hosted_button_id=MVDJY3AXLL8T2" target="_blank" title="GitHub Repository"><img src="DocumentationFiles/topbar/donate.png" /></a></div>
+            <div class="topBarItemContainer"><a href="https://github.com/marcos4503/documentation-template" target="_blank" title="GitHub Repository"><img src="DocumentationFiles/topbar/github.png" /></a></div>
+            <div class="topBarItemDivider"></div>
+            <div class="topBarSupportTextContainer">
+                <div class="topBarSupportText">For support and contact</div>
+                <div class="topBarSupportTextEmail">email@domain.name</div>
+            </div>
+        </div>
+        <div class="readProgressContainer" style="top: 0px;">
+            <div class="readProgressBar" id="readProgressBar"></div>
+        </div>
+        <div class="fullscreenImageBackground" id="fullScreenImageViewerBg" onclick="CloseImageFullScreenViewer();"></div>
+        <div class="fullscreenImagePopupContent" id="fullScreenImageViewerPop">
+            <div class="fullscreenImagePopup">
+                <div class="fullscreenImagePopupClose"><img src="DocumentationFiles/tools/close.webp" id="fullScreenImageClose" title="Click here to close Viewer." onclick="CloseImageFullScreenViewer();" /></div>
+                <img src="" id="fullScreenImageViewerImg" />
+            </div>
+        </div>
+        <div class="fullscreenCodeBackground" id="fullScreenCodeViewerBg" onclick="CloseExpandedScriptCode();"></div>
+        <div class="fullscreenCodePopupContent" id="fullScreenCodeViewerPop">
+            <div class="fullscreenCodePopup">
+                <div class="fullscreenCodePopupClose">
+                    <div>Script Code Viewer</div><img src="DocumentationFiles/tools/close.webp" id="fullScreenCodeClose" title="Click here to close Viewer." onclick="CloseExpandedScriptCode();" />
+                </div>
+                <div class="fullscreenCodeSandboxViewer" id="fullScreenCodeViewerSandbox"></div>
+            </div>
+        </div>
+        <div class="fullscreenLoadingContent" id="fullscreenLoadingBlock">
+            <div class="fullscreenLoadingBg">
+                <div class="fullscreenLoading">
+                    <div><img src="DocumentationFiles/tools/loading.webp" /></div>
+                    <div></div>
+                    <div>Loading Documentation</div>
+                </div>
+            </div>
+        </div>
+        <!-- #endregion -->
+        <!-- SUBBODY -->
+        <div class="subBody" style="padding-top: 0px; width: calc(100% - 16px);">
+            <!-- SUMMARY -->
+            <div class="subBodySummary" id="summary" onscroll="OnScrollSummary(this);" onmouseover="isMouseOverTheSummary(this, true);" onmouseout="isMouseOverTheSummary(this, false);">
+                <div id="summaryTitleAndSearch" class="subBodySummaryTitleAndSearch">
+                    <div id="summaryTitle" class="subBodySummaryTitle">Summary</div>
+                    <div id="summarySearchBar" class="subBodySummarySearchBar"><input type="text" placeholder="Search in Summary..." /></div>
+                    <div id="summarySearchStart" class="subBodySummarySearchStart" onclick="StartSearchJob();"><img src="DocumentationFiles/tools/mag-glass-start.webp" /></div>
+                    <div id="summarySearchEnd" class="subBodySummarySearchEnd" onclick="FinishSearchJob();"><img src="DocumentationFiles/tools/mag-glass-end.webp" /></div>
+                </div>
+                <div id="summarySearchResult" class="subBodySummarySearchResults">...</div>
+                <!-- -------------------------------------------------------------------------- START OF SUMMARY CONTENT -------------------------------------------------------------------------- -->
+                <ul>
+                    <li><a class="summaryItem" onclick="GoToDivSmoothly(this);" correspondentTopicId="1">Sobre a Documentação</a></li>
+                    <li class="summarySubItem">Elementos Adicionados</li>
+                    <ul>
+                        <li><a class="summaryItem" onclick="GoToDivSmoothly(this);" correspondentTopicId="2_0">Melhorias e adições menores</a></li>
+                        <li><a class="summaryItem" onclick="GoToDivSmoothly(this);" correspondentTopicId="2_1">Minimapa e Mapa Mundial</a></li>
+                        <li><a class="summaryItem" onclick="GoToDivSmoothly(this);" correspondentTopicId="2_2">Equinos em Botes</a></li>
+                        <li><a class="summaryItem" onclick="GoToDivSmoothly(this);" correspondentTopicId="2_3">Visualização dos Itens do Jogo no Inventário</a></li>
+                    </ul>
+                    <li class="summarySubItem">Rebalanceamentos</li>
+                    <ul>
+                        <li><a class="summaryItem" onclick="GoToDivSmoothly(this);" correspondentTopicId="3_1">Diversos Ajustes em Receitas</a></li>
+                        <li><a class="summaryItem" onclick="GoToDivSmoothly(this);" correspondentTopicId="3_2">Novo Sistema de Críticos</a></li>
+                    </ul>
+                    <li class="summarySubItem">Outros</li>
+                    <ul>
+                        <li><a class="summaryItem" onclick="GoToDivSmoothly(this);" correspondentTopicId="5_1">Pré-Geração de Chunks</a></li>
+                        <li><a class="summaryItem" onclick="GoToDivSmoothly(this);" correspondentTopicId="5_2">Alteração do Limite de Mobs</a></li>
+                    </ul>
+                    <li class="summarySubItem">Dicas</li>
+                    <ul>
+                        <li><a class="summaryItem" onclick="GoToDivSmoothly(this);" correspondentTopicId="6_1">Como Habilitar Anti-Aliasing Sem Shaders (Para GPUs da Nvidia Apenas!)</a></li>
+                    </ul>
+                    <li><a class="summaryItem" onclick="GoToDivSmoothly(this);" correspondentTopicId="98">Wiki do Minecraft</a></li>
+                    <li><a class="summaryItem" onclick="GoToDivSmoothly(this);" correspondentTopicId="99">Conclusão</a></li>
+                </ul>
+                <!-- -------------------------------------------------------------------------- END OF SUMMARY CONTENT -------------------------------------------------------------------------- -->
+            </div>
+            <div class="subBodyDivider" id="divider">
+                <div id="summaryScrollIndicador" class="summaryScrollDownIndicator"><img src="DocumentationFiles/tools/scroll-down.webp" /></div>
+            </div>
+
+            <!-- DOCUMENTATION CONTENT -->
+            <div class="subBodyContent" id="content">
+                <!-- -------------------------------------------------------------------------- START OF DOCUMENTATION CONTENT -------------------------------------------------------------------------- -->
+
+                <!-- #region Sobre a Documentação -->
+                <doc.topic topicid="1">
+                    <doc.topictitle>Sobre a Documentação</doc.topictitle>
+
+                    Aqui na documentação é onde você irá encontrar tudo que foi modificado pelo Modpack do Classic Vanilla+! Todas as mudanças são organizadas entre Elementos Adicionados, Rebalanceamentos, e Outros. Aproveite para ler e
+                    ficar por dentro de tudo!
+                    <doc.achiev>
+                        Esta documentação também está acessível in-game através do comando <doc.detach>/browser</doc.detach> (ou pressionando a tecla <doc.detach>HOME</doc.detach>) e do item <doc.detach>Enciclopédia</doc.detach>.
+                    </doc.achiev>
+
+                </doc.topic>
+                <!-- #endregion -->
+
+
+
+                <!-- #region Elementos Adicionados: Melhorias e adições menores -->
+                <doc.topic topicid="2_0">
+                    <doc.topictitle>Elementos Adicionados: Melhorias e adições menores</doc.topictitle>
+
+                    Diversas melhorias e novidades foram introduzidas neste modpack Vanilla+. Este tópico visa explorar as adições e melhorias menores, tudo dentro de um único tópico, dividido entre
+                    adições menores, porém, de maior destaque, e adições menores, de menor destaque. Você pode dar uma lida aqui se quiser ficar mais por dentro de todas mudanças e explora-las melhor, dentro do jogo.
+                    <doc.info>
+                        As mudanças de maior impacto, que precisam de mais atenção, estão distribuídas nessa Documentação, com tópicos próprios, dedicados a elas. Aqui estão mudanças mais simples.
+                    </doc.info>
+
+                    <doc.topicsubtitle>Mudanças de Maior Destaque</doc.topicsubtitle>
+                    <doc.list>
+                        <doc.listr>Agora o jogo gera Diamantes igual a versão 1.20.2+ gera, ou seja, com uma taxa de geração mais elevada do que a 1.20.1 Vanilla.</doc.listr>
+                        <doc.listr>Foram introduzidos um conjunto de otimizações de performance e gráficos, para oferecer ainda mais rapidez na sua Gameplay. O menu de configurações de gráficos também foi repaginado, liberando mais opções.</doc.listr>
+                        <doc.listr>Foi introduzido suporte a Shaderpacks (vulgo, Shaders). Adicionalmente, já há um Shader disponível para uso, por padrão. Ele já está pré-configurado para oferecer o melhor visual possível, reduzindo o mínimo de desempenho possível. Para ativar o Shader, basta ir nas configurações gráficas do jogo. É recomendado pelo menos uma GPU GTX1660Ti ou superior, para o uso de Shaders.</doc.listr>
+                        <doc.listr>Agora, as Bigornas podem reparar um mesmo item, infinitamente, porém, cada reparo, agora exige 15 níveis de experiência como custo.</doc.listr>
+                    </doc.list>
+
+                    <doc.topicsubtitle>Mudanças de Menor Destaque</doc.topicsubtitle>
+                    <doc.list>
+                        <doc.listr>Agora o jogo carrega Skins e Capas da Mojang, mesmo rodando offline (sem uma conta Mojang logada).</doc.listr>
+                        <doc.listr>O modpack possui um novo menu, destacando as características da versão 1.20.1, além de novas músicas. O menu de edição de telas do mod pode ser ativado através do atalho <doc.detach>CTRL + ALT + C</doc.detach>.</doc.listr>
+                        <doc.listr>Agora, ao abrir o Inventário, você também terá acesso a slots de itens vestíveis.</doc.listr>
+                        <doc.listr>O sistema de Chat baseado nos servidores Mojang foi desabilitado.</doc.listr>
+                        <doc.listr>Foram introduzidos diversos recursos de paridade com o Optifine, para o funcionamento de Resource Packs com efeitos diversos.</doc.listr>
+                        <doc.listr>Agora, os efeitos de Poções não exibem mais particulas na sua visão de Primeira Pessoa.</doc.listr>
+                        <doc.listr>Agora, todas as variantes de Ardósia podem ser quebradas na mesma velocidade das Pedras normais.</doc.listr>
+                        <doc.listr>Agora, quando todas os Troncos de uma árvore são coletados, as folhas tendem a sumir muito rapidamente.</doc.listr>
+                        <doc.listr>Agora os aldeões com cargo de Armeiros, Ferreiros e Armadureiros irão correr para reparar os Golems de Ferro danificados, sempre que possível, automaticamente.</doc.listr>
+                        <doc.listr>Animais agora não passarão mais através de Portões de Cercas, se não estiverem amarrados por um Laço.</doc.listr>
+                        <doc.listr>As nuvens foram retrabalhadas e agora estão mais bonitas, além de reagirem a mudanças de tempo. As nuvens retrabalhadas só devem aparecer quando não houver um Shader ativo.</doc.listr>
+                        <doc.listr>O céu noturno agora possui nebulosas visíveis. O novo céu noturno só deve aparecer quando não houver um Shader ativo.</doc.listr>
+                    </doc.list>
+
+                </doc.topic>
+                <!-- #endregion -->
+
+                <!-- #region Elementos Adicionados: Minimapa e Mapa Mundial -->
+                <doc.topic topicid="2_1">
+                    <doc.topictitle>Elementos Adicionados: Minimapa e Mapa Mundial</doc.topictitle>
+
+                    Um Minimapa e Mapa Mundial foram adicionados ao modpack! O Minimapa mostra partes do mapa e Mobs que estejam próximos a você. Você poderá observar uma seta que indica se o mob está acima ou abaixo de você.
+                    Segurando a tecla <doc.detach>TAB</doc.detach> o Minimapa exibirá na borda, todos os Mobs que estão dentro das Chunks visíveis do seu jogo, mas não estão aparecendo no Minimapa. Se você apertar a tecla
+                    <doc.detach>Num +</doc.detach> você poderá criar Waypoints para marcar suas localizações. Já a tecla <doc.detach>Num -</doc.detach> lhe permite gerenciar todos os Waypoints já criados. Segurando a tecla
+                    <doc.detach>Num 0</doc.detach> você poderá expandir o Minimapa momentaneamente para visualizar mais informações.
+                    <doc.image src="DocumentationFiles/images/1.png"></doc.image>
+                    Se você apertar a tecla <doc.detach>M</doc.detach>, você terá acesso ao Mapa Mundial que mostra todos os locais por onde você já andou. É possível visualizar criar Waypoints, compartilhar localizações e muito mais. Há
+                    também um quadrado amarelo que representa sua distância de visualização atual, para facilitar sua orientação.
+
+                </doc.topic>
+                <!-- #endregion -->
+
+                <!-- #region Elementos Adicionados: Equinos em Botes -->
+                <doc.topic topicid="2_2">
+                    <doc.topictitle>Elementos Adicionados: Equinos em Botes</doc.topictitle>
+
+                    Todos os Equinos como Cavalos, Burros, Mulas, Lhamas e até Camelos podem entrar em botes, junto com você! Para levar um desses animais a entrar num bote, usando um laço, puxe-o para dentro do bote e ele entrará
+                    automaticamente. Para fazer o animal sair, você pode usar um laço para puxar o animal para fora do bote, ou pode simplesmente montar no animal e pular, então ele sairá automaticamente.
+                    <doc.image src="DocumentationFiles/images/10.png"></doc.image>
+
+                </doc.topic>
+                <!-- #endregion -->
+
+                <!-- #region Elementos Adicionados: Visualização dos Itens do Jogo no Inventário -->
+                <doc.topic topicid="2_3">
+                    <doc.topictitle>Elementos Adicionados: Visualização dos Itens do Jogo no Inventário</doc.topictitle>
+
+                    Agora, ao acessar o seu Inventário, você verá uma lista com todos os itens acessíveis através do modo Sobrevivência. Clicando com o <doc.detach>Botão Direito</doc.detach> do mouse sobre um item, você pode ver no que ele
+                    é usado, e clicando com o <doc.detach>Botão Esquerdo</doc.detach> você pode ver como cria-lo, caso haja uma receita/modo de criação para ele. Você também pode pesquisar itens e favoritar itens com
+                    <doc.detach>[</doc.detach>, para que eles apareçam numa área dedicada, na sua tela de inventário. Para remover um item do favorito, basta posicionar o mouse sobre ele e então, pressionar <doc.detach>[</doc.detach>
+                    novamente.
+                    <doc.image src="DocumentationFiles/images/11.png"></doc.image>
+
+                </doc.topic>
+                <!-- #endregion -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <!-- #region Rebalanceamentos: Novo Sistema de Críticos -->
+                <doc.topic topicid="3_2">
+                    <doc.topictitle>Rebalanceamentos: Novo Sistema de Críticos</doc.topictitle>
+
+                    Agora, não é mais possível causar Acertos Críticos enquanto se está em queda (ou pulando) durante o Combate. Agora, cada arma possui uma Chance de Crítico fixa e a maioria possui uma taxa de Acertos Críticos fixada em
+                    4%. Portanto, agora para causar Acertos Críticos, é só continuar atacando e eles serão causados aleatoriamente. Há também o benefício de gastar menos nutrição, já que não será mais necessário ficar pulando a todo momento
+                    durante o combate.
+                    <br>
+                    <br>
+                    Caso você possua o efeito de "Sorte", a chance de Acerto Crítico base da sua arma é aumentada em +4%. Há também 3 novos Encantamentos, girando em torno do novo sistema de críticos. Veja eles abaixo:
+                    <doc.table>
+                        <doc.tablecw>30%=>auto</doc.tablecw>
+                        <doc.tablec>Encantamento=>Descrição</doc.tablec>
+                        <doc.tabler>Salvaguarda=>Reduz o dano de acertos críticos recebidos.</doc.tabler>
+                        <doc.tabler>Vitalidade=>Chance de ganhar Absorção em Acerto Crítico.</doc.tabler>
+                        <doc.tabler>Fascínio=>Aumenta a chance de acerto crítico.</doc.tabler>
+                    </doc.table>
+                    <doc.warn>
+                        Fique atento! Agora os Mobs também podem causar Acertos Críticos em você!
+                    </doc.warn>
+
+                </doc.topic>
+                <!-- #endregion -->
+
+                <!-- #region Outros: Alteração do Limite de Mobs -->
+                <doc.topic topicid="5_2">
+                    <doc.topictitle>Outros: Alteração do Limite de Mobs</doc.topictitle>
+
+                    O Limite de Mobs na geração de mobs no Mundo, foi alterado. Os Limites abaixo, valem para cada jogador presente no jogo. Usando a fórmula <doc.detach>numeroDeMobs = constante * chunks / 289</doc.detach>, é possível
+                    chegar ao número de mobs que devem estar existindo para cada jogador.
+                    <br>
+                    <br>
+                    Os números abaixo são a "constante". O "chunks" é o número de chunks disponíveis para spawn de mobs, está em um quadrado 17x17 ao qual o jogador está no centro, então no Single Player a área é sempre 17x17 = 289. Observe
+                    que se houver vários jogadores, esse número pode ser maior, mas se 2 jogadores estiverem no mesmo lugar, a área de 17x17 irá se sobrepor. Os chunks não serão contados duas vezes (ou seja, se 2 jogadores estiverem no
+                    mesmo lugar, a contagem de chunks é a mesma como se houvesse apenas 1 jogador).
+                    <br>
+                    <br>
+                    Suponha que quiséssemos saber quantos mobs hostis podem aparecer se houver 2 jogadores no mundo, a 1 km de distância um do outro (para que suas regiões de spawn não se sobreponham). Haverá 2 * 17 * 17 = 578 chunks. Se a
+                    constante para "monstros" é 70. Portanto, o limite de mobs dessa categoria é de 70 * 578 / 289 = 140.
+                    <br>
+                    <br>
+                    Enquanto o limite de mob não estiver cheio, o jogo continuará gerando mobs desse tipo (a taxa de spawn é uma vez por tick para monstros e pode ser mais lenta para outros mobs). Mobs que são nomeados marcados ou
+                    persistentes não contam (com algumas poucas exceções como Withers e Shulkers). Gaiolas de Mob Spawners também não entram para o limite de mobs.
+                    <doc.table>
+                        <doc.tablecw>30%=>auto=>auto</doc.tablecw>
+                        <doc.tablec>Categoria=>Limite Vanilla=>Limite The Last Days</doc.tablec>
+                        <doc.tabler>Monstros (Zumbi, Afogado, etc)=>70=>80</doc.tabler>
+                        <doc.tabler>Criaturas (Passivos e Neutros)=>10=>30</doc.tabler>
+                        <doc.tabler>Ambientais (Morcegos, etc)=>15=>15</doc.tabler>
+                        <doc.tabler>Aquáticos (Lula, Golfinho, etc)=>5=>10</doc.tabler>
+                        <doc.tabler>Ambientais Aquáticos (Peixes)=>20=>20</doc.tabler>
+                        <doc.tabler>Profundos (Lula Brilhante)=>5=>5</doc.tabler>
+                        <doc.tabler>Axolotes (Somente Eles)=>5=>5</doc.tabler>
+                    </doc.table>
+
+                </doc.topic>
+                <!-- #endregion -->
+
+                <!-- #region Dicas: Como Habilitar Anti-Aliasing Sem Shaders (Para GPUs da Nvidia Apenas!) -->
+                <doc.topic topicid="6_1">
+                    <doc.topictitle>Dicas: Como Habilitar Anti-Aliasing Sem Shaders (Para GPUs da Nvidia Apenas!)</doc.topictitle>
+
+                    Se os serrilhados do Minecraft Java Edition te incomodam, e você quer se livrar deles, mas sem utilizar algo pesado, como Shaders, saiba que é totalmente possível fazer isso, caso você tenha uma placa de vídeo da NVidia!
+                    Siga os passos abaixo para fazer isso.
+
+                    <doc.topicsubtitle>Passo 1</doc.topicsubtitle>
+
+                    No Launcher do Minecraft+, clique no botão de opções da Instância de Jogo ao qual você quer realizar esta alteração, e depois clique em <doc.detach>Abrir pasta do Java</doc.detach>.
+                    <doc.image src="DocumentationFiles/images/2.png"></doc.image>
+
+                    <doc.topicsubtitle>Passo 2</doc.topicsubtitle>
+                    Na janela que abriu, abra a pasta <doc.detach>bin</doc.detach> e depois, clique na barra de endereços e copie o caminho para essa pasta.
+                    <doc.image src="DocumentationFiles/images/3.png"></doc.image>
+
+                    <doc.topicsubtitle>Passo 3</doc.topicsubtitle>
+                    Clique com o botão direito do mouse na Área de Trabalho e depois abra o Painal da Nvidia. (Se for o Windows 11, você precisará clicar em "Mostrar Mais Opções" antes de ver a opção do Painel da Nvidia)
+                    <doc.image src="DocumentationFiles/images/4.png"></doc.image>
+
+                    <doc.topicsubtitle>Passo 4</doc.topicsubtitle>
+                    No Painel da Nvidia clique em <doc.detach>Gerenciar Configurações em 3D</doc.detach> depois clique na aba <doc.detach>Configurações do Programa</doc.detach> e depois clique em <doc.detach>Acrescentar</doc.detach>.
+                    <doc.image src="DocumentationFiles/images/5.png"></doc.image>
+                    Depois, na janela que se abre, clique em <doc.detach>Procurar...</doc.detach>.
+                    <doc.image src="DocumentationFiles/images/6.png"></doc.image>
+
+                    <doc.topicsubtitle>Passo 5</doc.topicsubtitle>
+                    Na janela de navegação de arquivos que se abre, clique na barra de endereços, apague todo o conteúdo dela e cole o caminho que você copiou no <b>Passo 2</b>...
+                    <doc.image src="DocumentationFiles/images/7.png"></doc.image>
+                    Após colar, dê um Enter e então todos os arquivos do caminho serão mostrados. Agora é só procurar pelo arquivo <doc.detach>javaw.exe</doc.detach>, seleciona-lo e clicar em <doc.detach>Abrir</doc.detach>.
+                    <br>
+                    <br>
+                    Se você fez tudo certo, agora o arquivo <doc.detach>javaw.exe</doc.detach> deve aparecer no Painel da Nvidia, como na imagem abaixo.
+                    <doc.image src="DocumentationFiles/images/8.png"></doc.image>
+
+                    <doc.topicsubtitle>Passo 6</doc.topicsubtitle>
+                    Agora, vamos configurar o <doc.detach>javaw.exe</doc.detach>. Defina todas as configurações para o <doc.detach>javaw.exe</doc.detach> conforme a tabela abaixo...
+                    <doc.table>
+                        <doc.tablecw>30%=>auto</doc.tablecw>
+                        <doc.tablec>Nome da Configuração=>Valor A Definir</doc.tablec>
+                        <doc.tabler>Anti-Aliasing - FXAA=>Ligado</doc.tabler>
+                        <doc.tabler>Anti-Aliasing - modo=>Substituir qualquer configuração do aplicativo</doc.tabler>
+                        <doc.tabler>Anti-Aliasing - configuração=>8x</doc.tabler>
+                        <doc.tabler>Anti-Aliasing - transparência=>8x (Superamostra)</doc.tabler>
+                    </doc.table>
+                    Após finalizar as alterações propostas acima, clique em <doc.detach>Aplicar</doc.detach>. As coisas devem ficar como na imagem abaixo...
+                    <doc.image src="DocumentationFiles/images/9.png"></doc.image>
+                    Agora, você já pode fechar o Painel da Nvidia.
+
+                    <doc.topicsubtitle>Passo 7</doc.topicsubtitle>
+                    Agora, abra o jogo e faça o teste para se certificar de que esteja tudo certo! 🙂
+
+                </doc.topic>
+                <!-- #endregion -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <!-- --------------------------------------------------------------------------- END OF DOCUMENTATION CONTENT --------------------------------------------------------------------------- -->
+            </div>
+        </div>
+
+        <div class="endOfBodyContentPoint" id="contentEndPoint"></div>
+        <!-- #region FOOTER -->
+        <div class="footer">
+            <center>
+                <small>
+                    <b>Desenvolvido com ❤ por Marcos Tomaz</b>
+                    <br>
+                    <div class="processingTimeResult">
+                        Página processada em <div id="processingTime">0</div> ms
+                    </div>
+                </small>
+            </center>
+        </div>
+        <div class="footerSpacement"></div>
+        <div class="gotoTopButton" id="gotoTopButtonItem" onclick="GoToToButton();"><img src="DocumentationFiles/tools/up.webp" title="Click here to go to top of page." /></div>
+        <!-- #endregion -->
+    </body>
+
+</html>
