@@ -206,6 +206,10 @@ key_key.entityculling.toggle:key.keyboard.unknown
 key_key.modernfix.config:key.keyboard.unknown
 key_minecart-turning.toggle:key.keyboard.f4
 key_key.wildfire_gender.gender_menu:key.keyboard.j
+key_keybinds.bettercombat.feint:key.keyboard.unknown
+key_keybinds.bettercombat.toggle_mine_with_weapons:key.keyboard.unknown
+key_key.chunkymcchunkface.show_bounds:key.keyboard.backslash
+key_key.commandkeys.open_config:key.keyboard.unknown
 soundCategory_master:1.0
 soundCategory_music:1.0
 soundCategory_record:1.0
