@@ -211,6 +211,8 @@ key_keybinds.bettercombat.toggle_mine_with_weapons:key.keyboard.unknown
 key_key.chunkymcchunkface.show_bounds:key.keyboard.backslash
 key_key.commandkeys.open_config:key.keyboard.unknown
 key_keybinds.combatroll.roll:key.keyboard.r
+key_key.crawlondemand.toggle_crawl:key.keyboard.c
+key_key.crawlondemand.crawl:key.keyboard.unknown
 soundCategory_master:1.0
 soundCategory_music:1.0
 soundCategory_record:1.0
