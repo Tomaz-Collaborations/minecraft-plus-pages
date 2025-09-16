@@ -215,6 +215,9 @@ key_key.crawlondemand.toggle_crawl:key.keyboard.c
 key_key.crawlondemand.crawl:key.keyboard.unknown
 key_keybind.musicmanager.open:key.keyboard.unknown
 key_keybind.musicmanager.show_toast:key.keyboard.equal
+key_keys.nyfsquiver.nextslot:key.keyboard.period
+key_keys.nyfsquiver.previousslot:key.keyboard.comma
+key_keys.nyfsquiver.openquiver:key.keyboard.n
 soundCategory_master:1.0
 soundCategory_music:1.0
 soundCategory_record:1.0
