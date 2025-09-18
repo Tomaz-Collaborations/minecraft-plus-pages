@@ -250,6 +250,10 @@ key_quark.keybind.narrator_readout:key.keyboard.unknown
 key_quark.keybind.narrator_full_readout:key.keyboard.unknown
 key_quark.keybind.variant_selector:key.keyboard.unknown
 key_key.smallships.ship_sail:key.keyboard.v
+key_key.toolbelt.open:key.keyboard.x
+key_key.toolbelt.cycle.left:key.keyboard.unknown
+key_key.toolbelt.cycle.right:key.keyboard.unknown
+key_key.toolbelt.slot:key.keyboard.unknown
 soundCategory_master:1.0
 soundCategory_music:1.0
 soundCategory_record:1.0
