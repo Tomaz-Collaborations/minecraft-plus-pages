@@ -260,6 +260,15 @@ key_key.betterminecarts.whistle:key.keyboard.unknown
 key_key.betterminecarts.redstone:key.keyboard.unknown
 key_key.betterminecarts.data:key.keyboard.unknown
 key_key.conveyorbelts.belt_key:key.keyboard.unknown
+key_Camera left:key.keyboard.unknown
+key_Camera right:key.keyboard.unknown
+key_Camera closer:key.keyboard.up
+key_Camera farther:key.keyboard.down
+key_Camera up:key.keyboard.unknown
+key_Camera down:key.keyboard.unknown
+key_Swap shoulder:key.keyboard.f6
+key_Toggle perspective:key.keyboard.unknown
+key_Free look:key.keyboard.unknown
 soundCategory_master:1.0
 soundCategory_music:1.0
 soundCategory_record:1.0
