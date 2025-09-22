@@ -288,6 +288,7 @@ key_key.jade.show_recipes:key.keyboard.unknown
 key_key.jade.show_uses:key.keyboard.unknown
 key_key.jade.narrate:key.keyboard.unknown
 key_key.jade.show_details:key.keyboard.unknown
+key_key.visible_toggle_sprint.desc:key.keyboard.unknown
 soundCategory_master:1.0
 soundCategory_music:1.0
 soundCategory_record:1.0
