@@ -1,5 +1,0 @@
-#List of slots to create or modify.
-#See documentation for syntax: https://docs.illusivesoulworks.com/curios/configuration#slot-configuration
-#
-slots = ["id=head;order=10;render_toggle=false;icon=curios:slot/empty_hat_slot", "id=necklace;order=20;render_toggle=false", "id=quiver;order=30;icon=curios:slot/empty_quiver_slot", "id=belt;order=40"]
-
