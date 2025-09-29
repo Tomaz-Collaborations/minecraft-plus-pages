@@ -291,6 +291,9 @@ key_key.jade.show_details:key.keyboard.unknown
 key_key.visible_toggle_sprint.desc:key.keyboard.unknown
 key_Options Gui:key.keyboard.unknown
 key_key.carbon_config.key:key.keyboard.unknown
+key_key.moreoffhandslots.next_offhand:key.keyboard.unknown
+key_key.moreoffhandslots.prev_offhand:key.keyboard.unknown
+key_key.moreoffhandslots.scrollwheel_modifier:key.keyboard.left.shift
 soundCategory_master:1.0
 soundCategory_music:1.0
 soundCategory_record:1.0
