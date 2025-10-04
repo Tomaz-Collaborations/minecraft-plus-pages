@@ -297,6 +297,7 @@ key_key.moreoffhandslots.scrollwheel_modifier:key.keyboard.left.shift
 key_ping-wheel.key.ping-location:key.mouse.middle
 key_ping-wheel.key.open-settings:key.keyboard.unknown
 key_ping-wheel.key.name-labels:key.keyboard.unknown
+key_key.bridgingmod.toggle_bridging:key.keyboard.unknown
 soundCategory_master:1.0
 soundCategory_music:1.0
 soundCategory_record:1.0
