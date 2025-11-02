@@ -266,7 +266,7 @@ key_Camera closer:key.keyboard.up
 key_Camera farther:key.keyboard.down
 key_Camera up:key.keyboard.unknown
 key_Camera down:key.keyboard.unknown
-key_Swap shoulder:key.keyboard.f6
+key_Swap shoulder:key.mouse.4
 key_Toggle perspective:key.keyboard.unknown
 key_Free look:key.keyboard.unknown
 key_key.coordinatesdisplay.visible:key.keyboard.unknown

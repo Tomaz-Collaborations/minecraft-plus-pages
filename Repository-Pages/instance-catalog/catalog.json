@@ -44,7 +44,7 @@
             "screenshotsFolderPath": "/minecraft/screenshots",
             "isUpdatableUsingSmartUpdater": true,
             "smartUpdaterFoldersListToKeep": [ "/minecraft/cachedImages", "/minecraft/saves", "/minecraft/screenshots", "/minecraft/shaderpacks", "/minecraft/resourcepacks" ],
-            "smartUpdaterFilesListToKeep": [ "/minecraft/options.txt", "/minecraft/config/mcbrowser.json", "/minecraft/config/embeddium-options.json", "/minecraft/config/oculus.properties", "/minecraft/config/sodium-extra-options.json" ],
+            "smartUpdaterFilesListToKeep": [ "/minecraft/options.txt", "/minecraft/config/mcbrowser.json", "/minecraft/config/embeddium-options.json", "/minecraft/config/oculus.properties", "/minecraft/config/sodium-extra-options.json", "/minecraft/config/world_preview/config.json" ],
             "dataDownloadIndexUrl": "https://tomaz-collaborations.github.io/minecraft-plus-pages/Repository-Pages/instance-item-0/instance-data-info.json"
         },
         {
