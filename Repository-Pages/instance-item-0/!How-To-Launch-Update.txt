@@ -3,7 +3,7 @@
    base that was downloaded to the user's computer. Therefore, these files will be things like mods, mod configurations, resource packs, etc. 
    They will be installed inside the "instances" folder of the Prism Launcher on the players computers.)
 2. Inside of the copyied folder (example, the "1.20.1 Classic Vanilla+" folder), delete the file "local-version.txt" and possibles Save Games
-3. Using 7-Zip, compact the copied folder, but splitting into pieces of 10MB
+3. Using 7-Zip, compact the copied folder, but splitting into pieces of 25MB
    The name of the parts must be like "instance-data.zip.XXX"
 4. Copy all compression parts to the folder "Repository-Pages/instance-item-X" (according to the ID of the instance)
 5. Update the file "instance-data-info.json" in the same folder of repository, to have the links of each part of the ZIP
