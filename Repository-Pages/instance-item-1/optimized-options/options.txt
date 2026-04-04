@@ -17,11 +17,11 @@ directionalAudio:false
 touchscreen:false
 fullscreen:true
 bobView:true
-toggleCrouch:false
+toggleCrouch:true
 toggleSprint:true
 darkMojangStudiosBackground:true
 hideLightningFlashes:false
-mouseSensitivity:0.07394366197183098
+mouseSensitivity:0.04225352112676056
 fov:0.125
 screenEffectScale:1.0
 fovEffectScale:1.0
@@ -31,18 +31,18 @@ glintStrength:0.75
 damageTiltStrength:1.0
 highContrast:false
 gamma:0.5
-renderDistance:10
-simulationDistance:12
+renderDistance:8
+simulationDistance:8
 entityDistanceScaling:1.5
 guiScale:2
 particles:0
-maxFps:200
+maxFps:150
 graphicsMode:1
 ao:true
 prioritizeChunkUpdates:0
-biomeBlendRadius:2
+biomeBlendRadius:3
 renderClouds:"true"
-resourcePacks:["vanilla","mod_resources","fabric"]
+resourcePacks:["pointblank_resources","vanilla","mod_resources","fabric","file/Recursos Para o Tema.zip","file/Clearer Water.zip","file/Quieter Rain.zip","file/Soft Weather.zip","file/Shorter Grasses.zip","file/Animated Grass.zip","file/3D Rails.zip","file/All Helmets Hidden.zip","file/Bat Updated Visual.zip","file/Beds Reimagined.zip","file/Better Doors.zip","file/Better Flames.zip","file/Better Mushrooms.zip","file/Better Sky.zip","file/Better Spiders.zip","file/Zombies Revamped.zip","file/Skeletons Revamped.zip","file/Biomed Creepers.zip","file/Backported Chickens.zip","file/Backported Cows.zip","file/Backported Piggies.zip","file/Colorful Sheared Sheeps.zip","file/Better Bunnies.zip","file/Squid Retexture.zip","file/Default Connected Textures.zip","file/3D Crops Revamped.zip","file/Extended Illumina.zip","file/3D Iron Bars.zip","file/Better Vanilla Fences.zip","file/Vanilla Emissive Ores.zip","file/Blocks Fullfill Visible.zip","file/Better Torches.zip","file/Better Sunflowers.zip","file/Bushy Leaves.zip","file/Campfire Items Animated.zip","file/Campfire Unlit Ashless.zip","file/Clear Infested Blocks.zip","file/Lotus Flowers.zip","file/More Desert Bloom.zip","file/More Fish Variants.zip","file/Old XP Sounds.zip","file/Quieter Nether Portals.zip","file/Xali\u0027s Potions.zip","file/Xali\u0027s Enchanted Books.zip","file/Xali\u0027s Enchanted Books+.zip","Moonlight Mods Dynamic Assets"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:pt_br
@@ -75,9 +75,9 @@ glDebugVerbosity:1
 skipMultiplayerWarning:true
 skipRealms32bitWarning:false
 hideMatchedNames:true
-joinedFirstServer:false
+joinedFirstServer:true
 hideBundleTutorial:false
-syncChunkWrites:true
+syncChunkWrites:false
 showAutosaveIndicator:true
 allowServerListing:true
 onlyShowSecureChat:false
@@ -91,8 +91,8 @@ key_key.left:key.keyboard.a
 key_key.back:key.keyboard.s
 key_key.right:key.keyboard.d
 key_key.jump:key.keyboard.space
-key_key.sneak:key.keyboard.left.shift
-key_key.sprint:key.keyboard.left.control
+key_key.sneak:key.keyboard.left.control
+key_key.sprint:key.keyboard.left.shift
 key_key.drop:key.keyboard.keypad.enter
 key_key.inventory:key.keyboard.e
 key_key.chat:key.keyboard.enter
@@ -101,7 +101,7 @@ key_key.pickItem:key.mouse.middle
 key_key.command:scancode.115
 key_key.socialInteractions:key.keyboard.unknown
 key_key.screenshot:key.keyboard.unknown
-key_key.togglePerspective:key.keyboard.f5
+key_key.togglePerspective:key.keyboard.unknown
 key_key.smoothCamera:key.keyboard.unknown
 key_key.fullscreen:key.keyboard.unknown
 key_key.spectatorOutlines:key.keyboard.unknown
@@ -118,6 +118,83 @@ key_key.hotbar.6:key.keyboard.6
 key_key.hotbar.7:key.keyboard.7
 key_key.hotbar.8:key.keyboard.8
 key_key.hotbar.9:key.keyboard.9
+key_key.entityculling.toggle:key.keyboard.unknown
+key_neat.keybind.toggle:key.keyboard.unknown
+key_key.modernfix.config:key.keyboard.unknown
+key_key.visible_toggle_sprint.desc:key.keyboard.unknown
+key_key.curios.open.desc:key.keyboard.unknown
+key_iris.keybind.reload:key.keyboard.unknown
+key_iris.keybind.toggleShaders:key.keyboard.unknown
+key_iris.keybind.shaderPackSelection:key.keyboard.unknown
+key_key.pointblack.reload:key.keyboard.r
+key_key.pointblack.firemode:key.keyboard.unknown
+key_key.pointblack.inspect:key.keyboard.unknown
+key_key.pointblack.attachments:key.keyboard.unknown
+key_key.pointblack.scope_switch:key.keyboard.unknown
+key_key.togglecleanview:key.keyboard.unknown
+key_keybinds.bettercombat.feint:key.keyboard.unknown
+key_keybinds.bettercombat.toggle_mine_with_weapons:key.keyboard.unknown
+key_key.wildfire_gender.gender_menu:key.keyboard.j
+key_Camera left:key.keyboard.unknown
+key_Camera right:key.keyboard.unknown
+key_Camera closer:key.keyboard.unknown
+key_Camera farther:key.keyboard.unknown
+key_Camera up:key.keyboard.unknown
+key_Camera down:key.keyboard.unknown
+key_Swap shoulder:key.keyboard.unknown
+key_Toggle perspective:key.keyboard.unknown
+key_Free look:key.keyboard.unknown
+key_key.carbon_config.key:key.keyboard.unknown
+key_key.commandkeys.open_config:key.keyboard.unknown
+key_key.bridgingmod.toggle_bridging:key.keyboard.unknown
+key_key.crawlondemand.toggle_crawl:key.keyboard.c
+key_key.crawlondemand.crawl:key.keyboard.unknown
+key_ping-wheel.key.ping-location:key.mouse.middle
+key_ping-wheel.key.open-settings:key.keyboard.unknown
+key_ping-wheel.key.name-labels:key.keyboard.unknown
+key_key.jade.config:key.keyboard.unknown
+key_key.jade.show_overlay:key.keyboard.unknown
+key_key.jade.toggle_liquid:key.keyboard.unknown
+key_key.jade.narrate:key.keyboard.unknown
+key_key.jade.show_details:key.keyboard.unknown
+key_quark.keybind.autorun:key.keyboard.unknown
+key_quark.keybind.back:key.keyboard.unknown
+key_quark.keybind.camera_mode:key.keyboard.unknown
+key_quark.keybind.transfer_insert:key.keyboard.unknown
+key_quark.keybind.transfer_extract:key.keyboard.unknown
+key_quark.keybind.shift_lock:key.keyboard.unknown
+key_quark.emote.no:key.keyboard.keypad.1
+key_quark.emote.yes:key.keyboard.keypad.3
+key_quark.emote.wave:key.keyboard.keypad.2
+key_quark.emote.salute:key.keyboard.unknown
+key_quark.emote.cheer:key.keyboard.keypad.6
+key_quark.emote.clap:key.keyboard.keypad.4
+key_quark.emote.think:key.keyboard.unknown
+key_quark.emote.point:key.keyboard.keypad.5
+key_quark.emote.shrug:key.keyboard.keypad.7
+key_quark.emote.headbang:key.keyboard.unknown
+key_quark.emote.weep:key.keyboard.keypad.8
+key_quark.emote.facepalm:key.keyboard.keypad.9
+key_quark.keybind.patreon_emote.dance:key.keyboard.unknown
+key_quark.keybind.patreon_emote.tpose:key.keyboard.unknown
+key_quark.keybind.patreon_emote.dab:key.keyboard.unknown
+key_quark.keybind.patreon_emote.jet:key.keyboard.unknown
+key_quark.keybind.patreon_emote.exorcist:key.keyboard.unknown
+key_quark.keybind.patreon_emote.zombie:key.keyboard.unknown
+key_quark.keybind.change_hotbar:key.keyboard.unknown
+key_quark.keybind.sort_player:key.keyboard.unknown
+key_quark.keybind.sort_container:key.keyboard.unknown
+key_quark.keybind.lock_rotation:key.keyboard.unknown
+key_quark.keybind.narrator_readout:key.keyboard.unknown
+key_quark.keybind.narrator_full_readout:key.keyboard.unknown
+key_quark.keybind.variant_selector:key.keyboard.unknown
+key_key.inventoryhud.toggle:key.keyboard.unknown
+key_key.inventoryhud.openconfig:key.keyboard.unknown
+key_key.inventoryhud.togglepot:key.keyboard.unknown
+key_key.inventoryhud.togglearm:key.keyboard.unknown
+key_key.inventoryhud.toggleall:key.keyboard.unknown
+key_keybind.musicmanager.open:key.keyboard.unknown
+key_keybind.musicmanager.show_toast:key.keyboard.unknown
 soundCategory_master:1.0
 soundCategory_music:1.0
 soundCategory_record:1.0
