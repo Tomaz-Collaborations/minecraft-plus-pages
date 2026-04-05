@@ -53,7 +53,7 @@
             "instanceVersion": "1.20.1",
             "instanceTheme": "Hide'n Seek Vanilla+",
             "instanceDescription": "Um Vanilla+, porém, só mods que permitem a bricandeira de Hide And Seek, ou \n Esconde-Esconde. Os escondedores devem ser encolhidos para tamanhos muito pequenos, enquanto os procuradores \n devem achar escondedores e elimina-los com a ajuda de armas pesadas!",
-            "currentDataVersion": 1,
+            "currentDataVersion": 2,
             "requiresJava": "17.0.2",
             "requiredJavaUrl": "https://tomaz-collaborations.github.io/minecraft-plus-pages/Repository-Pages/java-openjdk/17.0.2/openjdk-data-info.json",
             "iconUrl": "https://tomaz-collaborations.github.io/minecraft-plus-pages/Repository-Pages/instance-item-1/metadata/icon.png",
