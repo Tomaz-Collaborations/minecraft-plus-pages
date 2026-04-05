@@ -1,0 +1,9 @@
+
+["Zombie Villager Control Config"]
+	#Possibility of villagers being zombified when being killed by a zombie or zombie villager.
+	#Note: the vanilla difficulty is Ignored.
+	#Range: 0.0 ~ 1.0
+	ZombifiedPossibility = 0.0
+	#If enabled, zombified villager will be cured instantly.
+	"Enable QuickCure" = false
+
