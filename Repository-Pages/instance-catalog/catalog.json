@@ -45,8 +45,76 @@
             "isUpdatableUsingSmartUpdater": true,
             "smartUpdaterFoldersListToKeep": [ "/minecraft/cachedImages", "/minecraft/saves", "/minecraft/screenshots", "/minecraft/shaderpacks", "/minecraft/resourcepacks" ],
             "smartUpdaterFilesListToKeep": [ "/minecraft/options.txt", "/minecraft/config/mcbrowser.json", "/minecraft/config/embeddium-options.json", "/minecraft/config/oculus.properties", "/minecraft/config/sodium-extra-options.json", "/minecraft/config/world_preview/config.json" ],
+            "optionalResourcesMods": [
+                {
+                    "itemKey": "mod_cullLeaves",
+                    "displayName": "Cull Leaves",
+                    "displayDescription": "Este mod faz com que as Folhas atrás de outras Folhas, sejam puladas na renderização. Isso pode garantir um ganho de até 100% de FPS. Pode ser útil ao jogar com Shaders.",
+                    "pathToFindSourceJar": "/minecraft/mods_optRes/OPTIMIZATION - Cull Leaves 3.2.0.jar",
+                    "pathToPutIfIsEnabled": "/minecraft/mods/{SOURCE_JAR_NAME}"
+                },
+                {
+                    "itemKey": "mod_betterClouds",
+                    "displayName": "Better Clouds",
+                    "displayDescription": "Esse mod exibe a Nuvem 3D, reformulada, do modpack. Embora ela seja legal, se você for jogar com Shaders, é uma boa desativar esse recurso para evitar problemas de incompatibilidade com Nuvens Volumétricas de alguns Shaders.",
+                    "pathToFindSourceJar": "/minecraft/mods_optRes/VFX - Better Clouds 1.3.35b.jar",
+                    "pathToPutIfIsEnabled": "/minecraft/mods/{SOURCE_JAR_NAME}"
+                },
+                {
+                    "itemKey": "mod_chunksFadeIn",
+                    "displayName": "Chunks Fade In",
+                    "displayDescription": "Esse mod anima o aparecimento e desaparecimento de Chunks no modpack. Desativar esse recurso pode garantir um ganho de até 5% de performance, além de resolver incompatibilidades visuais, com alguns Shaders.",
+                    "pathToFindSourceJar": "/minecraft/mods_optRes/VFX - Chunks Fade In 1.0.7 (Fabric Version).jar",
+                    "pathToPutIfIsEnabled": "/minecraft/mods/{SOURCE_JAR_NAME}"
+                },
+                {
+                    "itemKey": "mod_nicerSkies",
+                    "displayName": "Nicer Skies",
+                    "displayDescription": "Esse mod exibe o Céu Noturno, reformulado, do modpack. Desativar esse recurso pode garantir um ganho de até 5% de performance. Embora ele seja bonito, se você for usar Shaders, não há por que usa-lo. Desativa-lo também resolve algumas incompatibilidades com Shaders.",
+                    "pathToFindSourceJar": "/minecraft/mods_optRes/VFX - Nicer Skies 1.3.0 (Fabric Version).jar",
+                    "pathToPutIfIsEnabled": "/minecraft/mods/{SOURCE_JAR_NAME}"
+                }
+            ],
+            "optionResourcesResourcePacks": [
+                {
+                    "itemKey": "rp_bushyLeaves",
+                    "displayName": "Bushy Leaves",
+                    "displayDescription": "Caso ativado, renderiza as Folhas com um acabamento de arredondamento, similar a arbustos. Isso deixar as Folhas mais bonitas e aconchegantes, mas se ativado, pode causar uma queda de performance de até 50% em locais de Florestas muito densas.",
+                    "pathToFindSourceEnabledResourcePack": "/minecraft/resourcepacks_optRes/Bushy Leaves ON.zip",
+                    "pathToFindSourceDisabledResourcePack": "/minecraft/resourcepacks_optRes/Bushy Leaves OFF.zip",
+                    "pathToPutWhenPlacing": "/minecraft/resourcepacks/Bushy Leaves.zip"
+                }
+            ],
+            "optionalResourcesSaves": [
+                {
+                    "itemKey": "save_oneWater",
+                    "displayName": "One Water",
+                    "displayDescription": "One Water é um modo de jogo onde você joga num mundo completamente vazio, que contém só um Bloco de Água e uma Vara de Pescar, pra você. Você deve iniciar sua base e progredir, somente a partir disso, e então, zerar o jogo.",
+                    "pathToFindCompressedSave": "/minecraft/saves_optRes/One Water.zip",
+                    "pathToPutAndDecompress": "/minecraft/saves",
+                    "pathWhenAlreadyIsPlacedAndDecompressed": "/minecraft/saves/One Water"
+                },
+                {
+                    "itemKey": "save_oneblockOriginal",
+                    "displayName": "Oneblock Original",
+                    "displayDescription": "Oneblock é um modo de jogo onde você joga num mundo vazio, e tudo que você tem é um Gerador de Blocos aleatório, que muda o bloco sempre que você quebra e coleta o antigo. Comece sua vida a partir disso, e zere o jogo.",
+                    "pathToFindCompressedSave": "/minecraft/saves_optRes/Oneblock Original.zip",
+                    "pathToPutAndDecompress": "/minecraft/saves",
+                    "pathWhenAlreadyIsPlacedAndDecompressed": "/minecraft/saves/Oneblock Original"
+                }
+            ],
             "dataDownloadIndexUrl": "https://tomaz-collaborations.github.io/minecraft-plus-pages/Repository-Pages/instance-item-0/instance-data-info.json"
         },
+
+
+
+
+
+
+
+
+
+
         {
             "instanceId": 1,
             "instanceFolderName": "/1.20.1 Hide'n Seek Vanilla+",
@@ -92,8 +160,132 @@
             "isUpdatableUsingSmartUpdater": false,
             "smartUpdaterFoldersListToKeep": [ ],
             "smartUpdaterFilesListToKeep": [ ],
+            "optionalResourcesMods": [
+                {
+                    "itemKey": "mod_cullLeaves",
+                    "displayName": "Cull Leaves",
+                    "displayDescription": "Este mod faz com que as Folhas atrás de outras Folhas, sejam puladas na renderização. Isso pode garantir um ganho de até 100% de FPS. Pode ser útil ao jogar com Shaders.",
+                    "pathToFindSourceJar": "/minecraft/mods_optRes/OPTIMIZATION - Cull Leaves 3.2.0.jar",
+                    "pathToPutIfIsEnabled": "/minecraft/mods/{SOURCE_JAR_NAME}"
+                },
+                {
+                    "itemKey": "mod_betterClouds",
+                    "displayName": "Better Clouds",
+                    "displayDescription": "Esse mod exibe a Nuvem 3D, reformulada, do modpack. Embora ela seja legal, se você for jogar com Shaders, é uma boa desativar esse recurso para evitar problemas de incompatibilidade com Nuvens Volumétricas de alguns Shaders.",
+                    "pathToFindSourceJar": "/minecraft/mods_optRes/VFX - Better Clouds 1.3.35b.jar",
+                    "pathToPutIfIsEnabled": "/minecraft/mods/{SOURCE_JAR_NAME}"
+                },
+                {
+                    "itemKey": "mod_chunksFadeIn",
+                    "displayName": "Chunks Fade In",
+                    "displayDescription": "Esse mod anima o aparecimento e desaparecimento de Chunks no modpack. Desativar esse recurso pode garantir um ganho de até 5% de performance, além de resolver incompatibilidades visuais, com alguns Shaders.",
+                    "pathToFindSourceJar": "/minecraft/mods_optRes/VFX - Chunks Fade In 1.0.7 (Fabric Version).jar",
+                    "pathToPutIfIsEnabled": "/minecraft/mods/{SOURCE_JAR_NAME}"
+                },
+                {
+                    "itemKey": "mod_nicerSkies",
+                    "displayName": "Nicer Skies",
+                    "displayDescription": "Esse mod exibe o Céu Noturno, reformulado, do modpack. Desativar esse recurso pode garantir um ganho de até 5% de performance. Embora ele seja bonito, se você for usar Shaders, não há por que usa-lo. Desativa-lo também resolve algumas incompatibilidades com Shaders.",
+                    "pathToFindSourceJar": "/minecraft/mods_optRes/VFX - Nicer Skies 1.3.0 (Fabric Version).jar",
+                    "pathToPutIfIsEnabled": "/minecraft/mods/{SOURCE_JAR_NAME}"
+                }
+            ],
+            "optionResourcesResourcePacks": [
+                {
+                    "itemKey": "rp_bushyLeaves",
+                    "displayName": "Bushy Leaves",
+                    "displayDescription": "Caso ativado, renderiza as Folhas com um acabamento de arredondamento, similar a arbustos. Isso deixar as Folhas mais bonitas e aconchegantes, mas se ativado, pode causar uma queda de performance de até 50% em locais de Florestas muito densas.",
+                    "pathToFindSourceEnabledResourcePack": "/minecraft/resourcepacks_optRes/Bushy Leaves ON.zip",
+                    "pathToFindSourceDisabledResourcePack": "/minecraft/resourcepacks_optRes/Bushy Leaves OFF.zip",
+                    "pathToPutWhenPlacing": "/minecraft/resourcepacks/Bushy Leaves.zip"
+                }
+            ],
+            "optionalResourcesSaves": [
+                {
+                    "itemKey": "save_backrooms",
+                    "displayName": "Backrooms",
+                    "displayDescription": "Um Mundo pronto para se jogar Hide'n Seek. Uma estrutura inspirada nas Backrooms.",
+                    "pathToFindCompressedSave": "/minecraft/saves_optRes/Backrooms.zip",
+                    "pathToPutAndDecompress": "/minecraft/saves",
+                    "pathWhenAlreadyIsPlacedAndDecompressed": "/minecraft/saves/Backrooms"
+                },
+                {
+                    "itemKey": "save_desertCity",
+                    "displayName": "Desert City",
+                    "displayDescription": "Um Mundo pronto para se jogar Hide'n Seek. Um pequeno vilarejo no Deserto.",
+                    "pathToFindCompressedSave": "/minecraft/saves_optRes/Desert City.zip",
+                    "pathToPutAndDecompress": "/minecraft/saves",
+                    "pathWhenAlreadyIsPlacedAndDecompressed": "/minecraft/saves/Desert City"
+                },
+                {
+                    "itemKey": "save_forestHouse",
+                    "displayName": "Forest House",
+                    "displayDescription": "Um Mundo pronto para se jogar Hide'n Seek. Uma belo casarão numa floresta longícua.",
+                    "pathToFindCompressedSave": "/minecraft/saves_optRes/Forest House.zip",
+                    "pathToPutAndDecompress": "/minecraft/saves",
+                    "pathWhenAlreadyIsPlacedAndDecompressed": "/minecraft/saves/Forest House"
+                },
+                {
+                    "itemKey": "save_gravityFalls",
+                    "displayName": "Gravity Falls",
+                    "displayDescription": "Um Mundo pronto para se jogar Hide'n Seek. A Cabana do Mistério, inspirada no desenho de Gravity Falls.",
+                    "pathToFindCompressedSave": "/minecraft/saves_optRes/Gravity Falls.zip",
+                    "pathToPutAndDecompress": "/minecraft/saves",
+                    "pathWhenAlreadyIsPlacedAndDecompressed": "/minecraft/saves/Gravity Falls"
+                },
+                {
+                    "itemKey": "save_oilPlatform",
+                    "displayName": "Oil Platform",
+                    "displayDescription": "Um Mundo pronto para se jogar Hide'n Seek. Uma plataforma de petróleo no mar.",
+                    "pathToFindCompressedSave": "/minecraft/saves_optRes/Oil Platform.zip",
+                    "pathToPutAndDecompress": "/minecraft/saves",
+                    "pathWhenAlreadyIsPlacedAndDecompressed": "/minecraft/saves/Oil Platform"
+                },
+                {
+                    "itemKey": "save_paintballArena",
+                    "displayName": "Paintball Arena",
+                    "displayDescription": "Um Mundo pronto para se jogar Hide'n Seek. Uma arena de Paintball, que pode ter monstros.",
+                    "pathToFindCompressedSave": "/minecraft/saves_optRes/Paintball Arena.zip",
+                    "pathToPutAndDecompress": "/minecraft/saves",
+                    "pathWhenAlreadyIsPlacedAndDecompressed": "/minecraft/saves/Paintball Arena"
+                },
+                {
+                    "itemKey": "save_ship",
+                    "displayName": "Ship",
+                    "displayDescription": "Um Mundo pronto para se jogar Hide'n Seek. Uma pequena embarcação de 3 andares.",
+                    "pathToFindCompressedSave": "/minecraft/saves_optRes/Ship.zip",
+                    "pathToPutAndDecompress": "/minecraft/saves",
+                    "pathWhenAlreadyIsPlacedAndDecompressed": "/minecraft/saves/Ship"
+                },
+                {
+                    "itemKey": "save_theOffice",
+                    "displayName": "The Office",
+                    "displayDescription": "Um Mundo pronto para se jogar Hide'n Seek. O escritório da Dunder Mifflin, inspirado na série de TV, The Office.",
+                    "pathToFindCompressedSave": "/minecraft/saves_optRes/The Office.zip",
+                    "pathToPutAndDecompress": "/minecraft/saves",
+                    "pathWhenAlreadyIsPlacedAndDecompressed": "/minecraft/saves/The Office"
+                },
+                {
+                    "itemKey": "save_valleyVillage",
+                    "displayName": "Valley Village",
+                    "displayDescription": "Um Mundo pronto para se jogar Hide'n Seek. Um pequeno vilarejo aconchegante e cheio de locais pra se esconder.",
+                    "pathToFindCompressedSave": "/minecraft/saves_optRes/Valley Village.zip",
+                    "pathToPutAndDecompress": "/minecraft/saves",
+                    "pathWhenAlreadyIsPlacedAndDecompressed": "/minecraft/saves/Valley Village"
+                }
+            ],
             "dataDownloadIndexUrl": "https://tomaz-collaborations.github.io/minecraft-plus-pages/Repository-Pages/instance-item-1/instance-data-info.json"
         }
     ],
+
+
+
+
+
+
+
+
+
+
     "catalogVersion": "1.0.0"
 }
