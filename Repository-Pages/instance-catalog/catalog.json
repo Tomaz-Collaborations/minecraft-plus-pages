@@ -6,7 +6,7 @@
             "instanceVersion": "1.20.1",
             "instanceTheme": "Classic Vanilla+",
             "instanceDescription": "O Vanilla+ Clássico, o mais próximo possível do Minecraft Vanilla, porém, com novos \n sistemas que já deveriam estar inclusos no jogo Vanilla, e com melhorias que já deveriam estar \n presentes nos sistemas já existentes no Vanilla.",
-            "currentDataVersion": 5,
+            "currentDataVersion": 6,
             "requiresJava": "17.0.2",
             "requiredJavaUrl": "https://tomaz-collaborations.github.io/minecraft-plus-pages/Repository-Pages/java-openjdk/17.0.2/openjdk-data-info.json",
             "iconUrl": "https://tomaz-collaborations.github.io/minecraft-plus-pages/Repository-Pages/instance-item-0/metadata/icon.png",
@@ -43,8 +43,8 @@
             "savesFolderPath": "/minecraft/saves",
             "screenshotsFolderPath": "/minecraft/screenshots",
             "isUpdatableUsingSmartUpdater": true,
-            "smartUpdaterFoldersListToKeep": [ "/minecraft/cachedImages", "/minecraft/saves", "/minecraft/screenshots", "/minecraft/shaderpacks", "/minecraft/resourcepacks" ],
-            "smartUpdaterFilesListToKeep": [ "/minecraft/options.txt", "/minecraft/config/mcbrowser.json", "/minecraft/config/embeddium-options.json", "/minecraft/config/oculus.properties", "/minecraft/config/sodium-extra-options.json", "/minecraft/config/world_preview/config.json" ],
+            "smartUpdaterFoldersListToKeep": [ "/minecraft/cachedImages", "/minecraft/saves", "/minecraft/screenshots", "/minecraft/shaderpacks", "/minecraft/resourcepacks", "/minecraft/xaero" ],
+            "smartUpdaterFilesListToKeep": [ "/minecraft/options.txt", "/minecraft/servers.dat", "/minecraft/config/mcbrowser.json", "/minecraft/config/embeddium-options.json", "/minecraft/config/oculus.properties", "/minecraft/config/sodium-extra-options.json", "/minecraft/config/world_preview/config.json" ],
             "optionalResourcesMods": [
                 {
                     "itemKey": "mod_cullLeaves",
