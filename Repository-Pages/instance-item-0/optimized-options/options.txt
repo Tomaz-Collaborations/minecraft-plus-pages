@@ -304,6 +304,12 @@ key_key.inventoryhud.toggleall:key.keyboard.unknown
 key_keybind.musicmanager.open:key.keyboard.unknown
 key_keybind.musicmanager.show_toast:key.keyboard.equal
 key_key.spartanweaponry.access_quiver:key.keyboard.unknown
+key_key.toggleVisualItemContents:key.keyboard.unknown
+key_key.toggleSelectedItemTooltips:key.keyboard.unknown
+key_key.toggleCarriedItemTooltips:key.keyboard.unknown
+key_key.cycleLeft:key.keyboard.unknown
+key_key.cycleRight:key.keyboard.unknown
+key_key.eugenes_horse_whistle.whistle:key.keyboard.g
 soundCategory_master:1.0
 soundCategory_music:1.0
 soundCategory_record:1.0
