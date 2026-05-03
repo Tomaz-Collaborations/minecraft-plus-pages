@@ -1,7 +1,0 @@
-displayRecordToast = true
-silentMusicToasts = false
-#Range: > -1
-minSongDelay = -1
-#Range: > -1
-maxSongDelay = -1
-
