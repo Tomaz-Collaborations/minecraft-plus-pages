@@ -1,0 +1,10 @@
+#The cooldown for creation of Raids, in seconds. (Type of INT. Range of 1~99999999999.)
+#Range: > 1
+raidCreationCooldown = 7200
+#Prevent Bad Omen effect remotion, by drinking Milk Bucket or Milk Bottle. (Type of BOOL. true/false.)
+preventBadOmenRemotion = true
+#A list of random cooldowns for creation of Raids, in seconds. NOT IMPLEMENTED YET! (Type of INT_ARRAY. For each INT item: Range of 1~99999999999.)
+raidCreationRandomCooldowns = [60, 120]
+#A list of items that block cooldown display, if in hand of the player. NOT IMPLEMENTED YET! (Type of STRING_ARRAY. For each STRING item example: "minecraft:iron_ingot".)
+cooldownDisplayBlockItems = ["minecraft:stick"]
+
