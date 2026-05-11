@@ -1,0 +1,11 @@
+
+[general]
+	#List of banned enchantments as resource locations, e.g. minecraft:mending
+	bannedEnchantments = ["spartanweaponry:propel", "spartanweaponry:razors_edge", "spartanweaponry:incendiary", "spartanweaponry:lucky_throw", "spartanweaponry:hydrodynamic", "spartanweaponry:supercharge", "spartanweaponry:expanse", "spartanweaponry:sharpshooter", "spartanweaponry:collectorang"]
+	#Enable verbose colored logging for debugging
+	debugLogging = true
+	#Use mixin-level filtering of enchanting table options
+	useMixinFilter = true
+	#If all options are banned, try lower enchant levels as a fallback
+	fallbackLowerLevels = true
+
