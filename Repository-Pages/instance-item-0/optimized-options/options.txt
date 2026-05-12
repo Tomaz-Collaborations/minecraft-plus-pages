@@ -310,6 +310,7 @@ key_key.toggleCarriedItemTooltips:key.keyboard.unknown
 key_key.cycleLeft:key.keyboard.unknown
 key_key.cycleRight:key.keyboard.unknown
 key_key.horsecall.call_or_spur_horse:key.keyboard.g
+key_key.gapclosersys.backdash:key.keyboard.r
 soundCategory_master:1.0
 soundCategory_music:1.0
 soundCategory_record:1.0
