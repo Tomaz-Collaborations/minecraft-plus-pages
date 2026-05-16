@@ -43,7 +43,7 @@
             "savesFolderPath": "/minecraft/saves",
             "screenshotsFolderPath": "/minecraft/screenshots",
             "isUpdatableUsingSmartUpdater": true,
-            "smartUpdaterFoldersListToKeep": [ "/minecraft/cachedImages", "/minecraft/saves", "/minecraft/screenshots", "/minecraft/shaderpacks", "/minecraft/resourcepacks", "/minecraft/xaero" ],
+            "smartUpdaterFoldersListToKeep": [ "/minecraft/cachedImages", "/minecraft/saves", "/minecraft/screenshots", "/minecraft/shaderpacks", "/minecraft/xaero" ],
             "smartUpdaterFilesListToKeep": [ "/minecraft/options.txt", "/minecraft/servers.dat", "/minecraft/config/mcbrowser.json", "/minecraft/config/embeddium-options.json", "/minecraft/config/oculus.properties", "/minecraft/config/sodium-extra-options.json", "/minecraft/config/world_preview/config.json" ],
             "optionalResourcesMods": [
                 {
