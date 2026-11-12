@@ -1,9 +1,0 @@
-{
-  "inventory": {
-    "0:7": "{Count:4b,id:\"minecraft:bread\"}",
-    "0:4": "{Count:1b,id:\"minecraft:leather_chestplate\",tag:{Damage:79,display:{Name:'{\"text\":\"Use \\'J\\' para customizar seu Personagem!\",\"color\":\"yellow\"}',color:8439583}}}",
-    "0:8": "{Count:16b,id:\"minecraft:torch\"}",
-    "0:0": "{Count:1b,id:\"minecraft:written_book\",tag:{author:\"Voce\",filtered_title:\"Diario\",pages:['{\"text\":\"Pressione \\'HOME\\' ou digite o comando \\'/browser\\' para acessar a documentacao, ou guia deste Vanilla+!\\\\n\\\\nPressione \\'J\\' para customizar o seu personagem. A sua customizacao e visivel para todos jogadores online.\"}','{\"text\":\"Pressione \\'Q\\' para acessar seus outros itens no inventario, rapidamente.\\\\n\\\\nPressione \\'+\\' para criar um marcador de mapa (Waypoint), rapidamente. Use \\'-\\' para acessar sua lista de Waypoints ja criados.\"}','{\"text\":\"Use \\'ALT\\' + \\'Roda do Mouse\\' para alternar entre os itens na Barra Rapida da sua mao secundaria.\\\\n\\\\nUse \\'E\\' para acessar seu inventario e colocar itens na Barra Rapida da sua mao secundaria.\"}','{\"text\":\"Pressione \\'M\\' para acessar o Mapa Mundial. Use \\'Num0\\' para expandir momentaneamente o seu Minimapa.\"}','{\"text\":\"DICAS\\\\n\\\\n- Crie um Cinto de Ferramentas. Ele lhe ajudara muito.\\\\n- Para usar Arcos ou Bestas, voce precisara de uma Aljava.\\\\n- Consulte a Documentacao para saber as coisas importantes que mudaram.\"}'],resolved:1b,title:\"Diario\"}}"
-  },
-  "wipeBlacklist": [ ]
-}
