@@ -1,0 +1,12 @@
+[
+  {
+    "fuelColorRed": 173,
+    "fuelColorGreen": 146,
+    "fuelColoBlue": 38,
+    "fuelColorAlpha": 127,
+    "amountInOneItemInMilliBuckets": 200,
+    "energyInOneMilliBucket": 10,
+    "itemQualifiedName": "betterminecarts:bio_diesel_fuel",
+    "leftoverItemQualifiedName": "minecraft:glass_bottle"
+  }
+]

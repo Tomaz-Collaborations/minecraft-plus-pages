@@ -1,0 +1,122 @@
+{
+  "version": 1,
+  "spDefaultProfile": {
+    "name": "Singleplayer Default",
+    "addresses": [],
+    "addToHistory": false,
+    "showHudMessage": false,
+    "commandKeys": [
+      {
+        "conflictStrategy": "ZERO",
+        "sendStrategy": "ZERO",
+        "key": {
+          "name": "key.keyboard.home",
+          "type": "KEYSYM",
+          "value": 268
+        },
+        "limitKey": {
+          "name": "key.keyboard.unknown",
+          "type": "KEYSYM",
+          "value": -1
+        },
+        "messages": [
+          "/browser"
+        ]
+      },
+      {
+        "conflictStrategy": "ZERO",
+        "sendStrategy": "TWO",
+        "key": {
+          "name": "key.keyboard.apostrophe",
+          "type": "KEYSYM",
+          "value": 39
+        },
+        "limitKey": {
+          "name": "key.keyboard.unknown",
+          "type": "KEYSYM",
+          "value": -1
+        },
+        "messages": [
+          "/chunkymcchunkface list minecraft:the_end,,/chunkymcchunkface list minecraft:the_nether,,/chunkymcchunkface list minecraft:overworld"
+        ]
+      },
+      {
+        "conflictStrategy": "ZERO",
+        "sendStrategy": "TWO",
+        "key": {
+          "name": "key.keyboard.semicolon",
+          "type": "KEYSYM",
+          "value": 59
+        },
+        "limitKey": {
+          "name": "key.keyboard.unknown",
+          "type": "KEYSYM",
+          "value": -1
+        },
+        "messages": [
+          "/chunkymcchunkface list minecraft:the_end enabled,,/chunkymcchunkface list minecraft:the_nether enabled,,/chunkymcchunkface list minecraft:overworld enabled"
+        ]
+      }
+    ]
+  },
+  "mpDefaultProfile": {
+    "name": "Multiplayer Default",
+    "addresses": [],
+    "addToHistory": false,
+    "showHudMessage": false,
+    "commandKeys": [
+      {
+        "conflictStrategy": "ZERO",
+        "sendStrategy": "ZERO",
+        "key": {
+          "name": "key.keyboard.home",
+          "type": "KEYSYM",
+          "value": 268
+        },
+        "limitKey": {
+          "name": "key.keyboard.unknown",
+          "type": "KEYSYM",
+          "value": -1
+        },
+        "messages": [
+          "/browser"
+        ]
+      },
+      {
+        "conflictStrategy": "ZERO",
+        "sendStrategy": "TWO",
+        "key": {
+          "name": "key.keyboard.apostrophe",
+          "type": "KEYSYM",
+          "value": 39
+        },
+        "limitKey": {
+          "name": "key.keyboard.unknown",
+          "type": "KEYSYM",
+          "value": -1
+        },
+        "messages": [
+          "/chunkymcchunkface list minecraft:the_end,,/chunkymcchunkface list minecraft:the_nether,,/chunkymcchunkface list minecraft:overworld"
+        ]
+      },
+      {
+        "conflictStrategy": "ZERO",
+        "sendStrategy": "TWO",
+        "key": {
+          "name": "key.keyboard.semicolon",
+          "type": "KEYSYM",
+          "value": 59
+        },
+        "limitKey": {
+          "name": "key.keyboard.unknown",
+          "type": "KEYSYM",
+          "value": -1
+        },
+        "messages": [
+          "/chunkymcchunkface list minecraft:the_end enabled,,/chunkymcchunkface list minecraft:the_nether enabled,,/chunkymcchunkface list minecraft:overworld enabled"
+        ]
+      }
+    ]
+  },
+  "profiles": []
+}
