@@ -328,3 +328,5 @@ modelPart_right_sleeve:true
 modelPart_left_pants_leg:true
 modelPart_right_pants_leg:true
 modelPart_hat:true
+musicToast:"pause_and_toast"
+musicFrequency:"DEFAULT"
