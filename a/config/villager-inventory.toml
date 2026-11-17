@@ -1,0 +1,5 @@
+
+["Villager Inventory"]
+	#If enabled then the Shift Right Click interaction will not be disabled when the interaction Key is binded
+	AllowBoth = false
+

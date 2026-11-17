@@ -1,0 +1,21 @@
+
+[tooltip]
+	#Choose which capacity display to use (Vanilla = bar, Classic = line).
+	showCapacityBar = true
+	#What text, if any, should appear inside the capacity bar.
+	#NONE - match 1.21 preview and leave the bar blank.
+	#VANILLA - show Empty / Full like modern snapshots.
+	#CLASSIC - show the classic 24/64 fullness number.
+	#HYBRID - Empty/Full labels at the extremes, numeric value otherwise.
+	#VANILLA_REVISED - Empty/Filling/Full labels similar to the 1.21 preview.
+	#Allowed Values: NONE, VANILLA, CLASSIC, HYBRID, VANILLA_REVISED
+	capacityLabelMode = "VANILLA"
+	#Choose which bundle slot texture style to use.
+	#VANILLA - match the latest 1.21 UI with gray slot backgrounds (default).
+	#EXPERIMENT - floating icons inspired by the early snapshot preview.
+	#CLASSIC - use the older grid from 1.20.1.
+	#Allowed Values: VANILLA, EXPERIMENT, CLASSIC
+	slotTextureMode = "VANILLA"
+	#Show the 1.21-style preview bar for the currently selected item.
+	showSelectionBar = true
+
