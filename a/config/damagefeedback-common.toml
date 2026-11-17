@@ -1,7 +1,0 @@
-#Is the color of the Feedback on normal damage. A list of channels R, G and B color. (Type of INT_ARRAY. For each INT item: Range of 1~255.)
-normalReticleFeedbackRgbColor = [255, 255, 255]
-#Is the color of the Feedback on accumulated damage. A list of channels R, G and B color. (Type of INT_ARRAY. For each INT item: Range of 1~255.)
-critReticleFeedbackRgbColor = [255, 0, 0]
-#Is the color of the Feedback of elimination. A list of channels R, G and B color. (Type of INT_ARRAY. For each INT item: Range of 1~255.)
-skullReticleFeedbackRgbColor = [255, 0, 0]
-
