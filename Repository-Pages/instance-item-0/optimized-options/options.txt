@@ -311,6 +311,7 @@ key_key.cycleLeft:key.keyboard.unknown
 key_key.cycleRight:key.keyboard.unknown
 key_key.horsecall.call_or_spur_horse:key.keyboard.g
 key_key.gapclosersys.backdash:key.keyboard.r
+key_key.music_disc_maker.open_equipped_boombox:key.keyboard.equal
 soundCategory_master:1.0
 soundCategory_music:1.0
 soundCategory_record:1.0
