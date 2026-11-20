@@ -1,0 +1,7 @@
+{
+  "demandOnClientMessage": "Você não possui nenhum relatório de bate-papo e este servidor está configurado para solicitá-lo no Cliente!",
+  "demandOnClient": true,
+  "convertToGameMessage": true,
+  "addQueryData": true,
+  "enableDebugLog": false
+}

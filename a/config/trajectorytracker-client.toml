@@ -1,0 +1,27 @@
+
+#Trajectory Tracker - Client Configuration
+[general]
+	#How the trajectory preview is triggered:
+	#ALWAYS_HELD = Always shows when holding a throwable item (Default)
+	#KEY_HOLD = Shows only while holding the toggle key
+	#KEY_TOGGLE = Press key to toggle on/off
+	#DISABLED = Preview disabled
+	#Allowed Values: ALWAYS_HELD, KEY_HOLD, KEY_TOGGLE, DISABLED
+	previewMode = "ALWAYS_HELD"
+	#Render the 3D trajectory curve in the world
+	showLine = true
+	#Render the impact marker and landing circle on hit surface
+	showImpactCircle = true
+	#Display distance and target coordinates near the crosshair
+	showHud = true
+	#When an actual projectile is thrown, track its flight and display final distance/target
+	trackRealtimeThrows = true
+	#Send a one-time chat tip when holding a throwable for the first time in a world/server
+	sendFirstTimeMessage = true
+	#Maximum flight simulation steps (each step ~ 1 tick)
+	#Range: 20 ~ 500
+	maxSimulationSteps = 200
+	#Visual line width / thickness
+	#Range: 0.5 ~ 10.0
+	lineWidth = 2.5
+
