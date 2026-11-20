@@ -1,0 +1,17 @@
+#The screen position to be the anchor or origin of the Cycle HUD. (Type of STRING. Allowed values is: TOP_RIGHT, BOTTOM_RIGHT, TOP_LEFT or BOTTOM_LEFT.)
+cycleHudAnchor = "TOP_LEFT"
+#The X offset of the Cycle HUD. (Type of INT. Range of -8000~8000.)
+#Range: -8000 ~ 8000
+pivotXoffset = -175
+#The Y offset of the Cycle HUD. (Type of INT. Range of -8000~8000.)
+#Range: -8000 ~ 8000
+pivotYoffset = 10
+#The orientation of the Cycle HUD. (Type of STRING. Allowed values is: HORIZONTAL or VERTICAL.)
+cycleHudOrientation = "HORIZONTAL"
+#The Moons icons size in X and Y. (Type of INT. Range of 8~64.)
+#Range: 8 ~ 64
+moonsSize = 12
+#The Moons spacing size. (Type of INT. Range of 2~16.)
+#Range: 2 ~ 16
+moonsSpacing = 2
+
