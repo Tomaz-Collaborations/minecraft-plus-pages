@@ -1,0 +1,8 @@
+{
+    "announce_globally": false,
+    // Type: Integer
+    "announcement_range": 128,
+    "add_glowing_effect": true,
+    "announcement_sound_enabled": true,
+    "announcement_sound": "minecraft:entity.wandering_trader.yes"
+}

@@ -1,0 +1,8 @@
+{
+  "inventory": {
+    "0:0": "{Count:1b,id:\"minecraft:leather_chestplate\",tag:{Damage:79,display:{Name:'{\"text\":\"Use \\'J\\' para customizar seu Personagem!\",\"color\":\"yellow\"}',color:8439583}}}",
+    "0:8": "{Count:1b,id:\"minecraft:carved_pumpkin\"}",
+    "0:4": "{Count:1b,id:\"minecraft:written_book\",tag:{author:\"marcos4503\",filtered_title:\"Leia-Me!\",pages:['{\"text\":\"Bem vindo ao Hide\\'n Seek!\\\\n\\\\nSe você é o Host do Mundo e deseja iniciar um jogo de Hide\\'n Seek, pressione \\'HOME\\' para aprender sobre como jogar, ver as regras e como iniciar ou controlar partidas.\"}'],resolved:1b,title:\"Leia-Me!\"}}"
+  },
+  "wipeBlacklist": []
+}

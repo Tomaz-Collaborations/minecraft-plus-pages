@@ -1,0 +1,9 @@
+#Enter the IDs of the items you want to disable right-click interaction for, separated by commas. Example: minecraft:apple,modid:custom_item
+ItemIdItemInteraction = ""
+#Enter the IDs of the items/blocks you want to disable right-click interaction and placement with blocks, separated by commas. Example: minecraft:stone,modid:custom_item
+ItemIdBlockInteraction = "minecraft:oak_trapdoor"
+#Enter the IDs of the items you want to disable right-click interaction with all entities, separated by commas. Example: minecraft:wheat,modid:custom_item
+ItemIdEntityInteraction = ""
+#Enable or disabler status message when the item's interaction is disabled.
+StatusMessage = true
+

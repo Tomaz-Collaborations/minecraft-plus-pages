@@ -1,0 +1,126 @@
+#The offset of the Y axis, for GUI elements. (Type of INT. Range of 0~255.)
+#Range: 0 ~ 255
+guiYOffset = 26
+#The offset of the X axis, for GUI elements of Adrenaline Points. (Type of INT. Range of -512~512.)
+#Range: -512 ~ 512
+guiAdrenalineXOffset = 0
+#The initial game count in seconds. (Type of INT. Range of 1~99999999999.)
+#Range: > 1
+gameCountTime = 32
+#The minutes needed to reveal all Players. (Type of INT. Range of 1~99999999999.)
+#Range: > 1
+gameMinutesToReveal = 1
+#The seconds needed to reveal all Players. (Type of INT. Range of 1~99999999999.)
+#Range: > 1
+gameSecondsToReveal = 30
+#If a Hidder is within this distance of the Game Totem Head when the match begins, it will be killed immediately. (Type of INT. Range of 1~99999999999.)
+#Range: > 1
+gameAntiCampingRange = 10
+#The max number of Adrenaline Injections to keep existing in-game. (Type of INT. Range of 0~10.)
+#Range: 0 ~ 10
+maxAdrenalineInjectionsSpawn = 2
+#The Seeker item, in slot 1 of Hotbar. (Type of STRING. Use this format: "minecraft:diamond_sword:nbt{Damage: 20}:qty{1}". Escape " with \". Use "/data get entity @s SelectedItem" in-game, to get the ID+NBT.)
+seekerHotbarSlot1 = "minecraft:stone_sword:nbt{RepairCost: 1, Enchantments: [{id: \"minecraft:unbreaking\", lvl: 3s}], Damage: 0, display: {Name: '{\"text\":\"Esfola-Escondedores\"}'}}:qty{1}"
+#The Seeker item, in slot 2 of Hotbar. (Type of STRING. Use this format: "minecraft:diamond_sword:nbt{Damage: 20}:qty{1}". Escape " with \". Use "/data get entity @s SelectedItem" in-game, to get the ID+NBT.)
+seekerHotbarSlot2 = "minecraft:bow:nbt{RepairCost: 15, Enchantments: [{id: \"minecraft:power\", lvl: 5s}, {id: \"minecraft:flame\", lvl: 1s}, {id: \"minecraft:infinity\", lvl: 1s}, {id: \"minecraft:unbreaking\", lvl: 3s}], Damage: 0, display: {Name: '{\"text\":\"Perfurador de Escondedores\"}'}}:qty{1}"
+#The Seeker item, in slot 3 of Hotbar. (Type of STRING. Use this format: "minecraft:diamond_sword:nbt{Damage: 20}:qty{1}". Escape " with \". Use "/data get entity @s SelectedItem" in-game, to get the ID+NBT.)
+seekerHotbarSlot3 = "pointblank:m9:nbt{ammo: 0, lid: -7476882250983928092L, GeckoLibID: 12L, mid: -2818468138384012716L, aim: 0b, fmid: [I; 2024040644, 790376639, -1901301172, -347176430], seed: 3133476949708878160L, ammox: {}, sa: {scope: \"/\"}}:qty{1}"
+#The Seeker item, in slot 4 of Hotbar. (Type of STRING. Use this format: "minecraft:diamond_sword:nbt{Damage: 20}:qty{1}". Escape " with \". Use "/data get entity @s SelectedItem" in-game, to get the ID+NBT.)
+seekerHotbarSlot4 = "pointblank:rhino:nbt{lid: -7330665097479311750L, ammo: 0, GeckoLibID: 13L, mid: -8461557450478500803L, aim: 0b, fmid: [I; -1925260781, 1604924941, -2011785660, 379136507], seed: -8129022274228614076L, ammox: {}, sa: {scope: \"/\"}}:qty{1}"
+#The Seeker item, in slot 5 of Hotbar. (Type of STRING. Use this format: "minecraft:diamond_sword:nbt{Damage: 20}:qty{1}". Escape " with \". Use "/data get entity @s SelectedItem" in-game, to get the ID+NBT.)
+seekerHotbarSlot5 = "pointblank:mp5:nbt{lid: -5244035966879627068L, ammo: 0, GeckoLibID: 14L, mid: 3904842251972791451L, aim: 0b, fmid: [I; -1624364435, 398342961, -1590962794, -417614445], seed: -8206793778158460385L, ammox: {}, sa: {scope: \"/\"}}:qty{1}"
+#The Seeker item, in slot 6 of Hotbar. (Type of STRING. Use this format: "minecraft:diamond_sword:nbt{Damage: 20}:qty{1}". Escape " with \". Use "/data get entity @s SelectedItem" in-game, to get the ID+NBT.)
+seekerHotbarSlot6 = "pointblank:m4sopmodii:nbt{ammo: 0, lid: -5071715903813240346L, GeckoLibID: 11L, as: [{id: \"pointblank:holographic\", rmv: 1b}], mid: -5885672435484178150L, aim: 0b, fmid: [I; -1701463822, 1341931371, -1838848875, 803100096], seed: 8252856520995638887L, ammox: {}, sa: {scope: \"//holographic\"}}:qty{1}"
+#The Seeker item, in slot 7 of Hotbar. (Type of STRING. Use this format: "minecraft:diamond_sword:nbt{Damage: 20}:qty{1}". Escape " with \". Use "/data get entity @s SelectedItem" in-game, to get the ID+NBT.)
+seekerHotbarSlot7 = "pointblank:l96a1:nbt{lid: -8728822081988947018L, ammo: 0, GeckoLibID: 15L, aim: 0b, mid: 992706846974429947L, as: [{id: \"pointblank:hawk_scope\", rmv: 1b}], fmid: [I; 573397678, 1834630192, -1285657842, -1809198908], seed: -584955164911956790L, ammox: {}, sa: {scope: \"//hawk_scope\"}}:qty{1}"
+#The Seeker item, in slot 8 of Hotbar. (Type of STRING. Use this format: "minecraft:diamond_sword:nbt{Damage: 20}:qty{1}". Escape " with \". Use "/data get entity @s SelectedItem" in-game, to get the ID+NBT.)
+seekerHotbarSlot8 = "pointblank:grenade:nbt{GeckoLibID: 3L, lid: -8125303903031921365L, mid: -8231976410624472432L}:qty{8}"
+#The Seeker item, in slot 9 of Hotbar. (Type of STRING. Use this format: "minecraft:diamond_sword:nbt{Damage: 20}:qty{1}". Escape " with \". Use "/data get entity @s SelectedItem" in-game, to get the ID+NBT.)
+seekerHotbarSlot9 = "pointblank:at4:nbt{lid: -5801675911761862506L, ammo: 0, GeckoLibID: 16L, mid: -7601472844874822255L, aim: 0b, fmid: [I; -1044124740, -1309328913, -1888770758, 1447016296], seed: -6995514045948712655L, ammox: {}}:qty{1}"
+#If enabled, items that are for the Seeker Inventory will be refilled whenever there is a revelation of Players. (Type of BOOL. true/false.)
+seekerRefillInventorySlots = true
+#The Seeker item, in slot 1 of Hotbar. (Type of STRING. Use this format: "minecraft:arrow:nbt{}:qty{32}". Escape " with \". Use "/data get entity @s SelectedItem" in-game, to get the ID+NBT.)
+seekerInventorySlot1 = "minecraft:air:nbt{}:qty{1}"
+#The Seeker item, in slot 2 of Hotbar. (Type of STRING. Use this format: "minecraft:arrow:nbt{}:qty{32}". Escape " with \". Use "/data get entity @s SelectedItem" in-game, to get the ID+NBT.)
+seekerInventorySlot2 = "minecraft:arrow:nbt{}:qty{1}"
+#The Seeker item, in slot 3 of Hotbar. (Type of STRING. Use this format: "minecraft:arrow:nbt{}:qty{32}". Escape " with \". Use "/data get entity @s SelectedItem" in-game, to get the ID+NBT.)
+seekerInventorySlot3 = "pointblank:ammo9mm:nbt{}:qty{15}"
+#The Seeker item, in slot 4 of Hotbar. (Type of STRING. Use this format: "minecraft:arrow:nbt{}:qty{32}". Escape " with \". Use "/data get entity @s SelectedItem" in-game, to get the ID+NBT.)
+seekerInventorySlot4 = "pointblank:ammo357:nbt{}:qty{6}"
+#The Seeker item, in slot 5 of Hotbar. (Type of STRING. Use this format: "minecraft:arrow:nbt{}:qty{32}". Escape " with \". Use "/data get entity @s SelectedItem" in-game, to get the ID+NBT.)
+seekerInventorySlot5 = "pointblank:ammo9mm:nbt{}:qty{15}"
+#The Seeker item, in slot 6 of Hotbar. (Type of STRING. Use this format: "minecraft:arrow:nbt{}:qty{32}". Escape " with \". Use "/data get entity @s SelectedItem" in-game, to get the ID+NBT.)
+seekerInventorySlot6 = "pointblank:ammo556:nbt{}:qty{8}"
+#The Seeker item, in slot 7 of Hotbar. (Type of STRING. Use this format: "minecraft:arrow:nbt{}:qty{32}". Escape " with \". Use "/data get entity @s SelectedItem" in-game, to get the ID+NBT.)
+seekerInventorySlot7 = "pointblank:ammo338lapua:nbt{}:qty{2}"
+#The Seeker item, in slot 8 of Hotbar. (Type of STRING. Use this format: "minecraft:arrow:nbt{}:qty{32}". Escape " with \". Use "/data get entity @s SelectedItem" in-game, to get the ID+NBT.)
+seekerInventorySlot8 = "minecraft:air:nbt{}:qty{1}"
+#The Seeker item, in slot 9 of Hotbar. (Type of STRING. Use this format: "minecraft:arrow:nbt{}:qty{32}". Escape " with \". Use "/data get entity @s SelectedItem" in-game, to get the ID+NBT.)
+seekerInventorySlot9 = "pointblank:at4_rocket:nbt{}:qty{2}"
+#The cooldown (seconds) for use of the Whistle, by Hidders. (Type of INT. Range of 5~180.)
+#Range: 5 ~ 180
+hidderWhistleCooldown = 60
+#The increase of adrenaline, when use the Whistle. (Type of INT. Range of 2~10.)
+#Range: 2 ~ 10
+hidderWhistleAdrenalineIncrease = 5
+#The reveal time (seconds) on use the Whistle. (Type of INT. Range of 2~10.)
+#Range: 2 ~ 10
+hidderWhistleRevealDuration = 5
+#The cooldown (seconds) for use of the Rage Baiter, by Hidders. (Type of INT. Range of 5~180.)
+#Range: 5 ~ 180
+hidderRageBaiterCooldown = 30
+#The increase of adrenaline, when use the Rage Baiter. (Type of INT. Range of 1~5.)
+#Range: 1 ~ 5
+hidderRageBaiterAdrenalineIncrease = 1
+#The increase of adrenaline, when collect a Adrenaline Injection. (Type of INT. Range of 1~5.)
+#Range: 1 ~ 5
+adrenalineInjectionIncrease = 1
+#The cooldown (seconds) for use the Totem Tracker, by Hidders. (Type of INT. Range of 1~600.)
+#Range: 1 ~ 600
+hidderTotemTrackerCooldown = 120
+#The cost of Adrenaline Points to use the Totem Tracker, by Hidders. (Type of INT. Range of 1~100.)
+#Range: 1 ~ 100
+hidderTotemTrackerAdrenalineCost = 4
+#The cooldown (seconds) for use the Smoke Bomb, by Hidders. (Type of INT. Range of 1~600.)
+#Range: 1 ~ 600
+hidderSmokeBombCooldown = 15
+#The cost of Adrenaline Points to use the Smoke Bomb, by Hidders. (Type of INT. Range of 1~100.)
+#Range: 1 ~ 100
+hidderSmokeBombAdrenalineCost = 5
+#The cooldown (seconds) for use the Zero Gravity, by Hidders. (Type of INT. Range of 1~600.)
+#Range: 1 ~ 600
+hidderZeroGravityCooldown = 90
+#The cost of Adrenaline Points to use the Zero Gravity, by Hidders. (Type of INT. Range of 1~100.)
+#Range: 1 ~ 100
+hidderZeroGravityAdrenalineCost = 12
+#The cooldown (seconds) for use the Leap of Faith, by Hidders. (Type of INT. Range of 1~600.)
+#Range: 1 ~ 600
+hidderLeapOfFaithCooldown = 5
+#The cost of Adrenaline Points to use the Leap of Faith, by Hidders. (Type of INT. Range of 1~100.)
+#Range: 1 ~ 100
+hidderLeapOfFaithAdrenalineCost = 3
+#The cooldown (seconds) for use the Camouflage, by Hidders. (Type of INT. Range of 1~600.)
+#Range: 1 ~ 600
+hidderCamouflageCooldown = 12
+#The cost of Adrenaline Points to use the Camouflage, by Hidders. (Type of INT. Range of 1~100.)
+#Range: 1 ~ 100
+hidderCamouflageAdrenalineCost = 15
+#The cooldown (seconds) for use the Ladder Specialist, by Hidders. (Type of INT. Range of 1~600.)
+#Range: 1 ~ 600
+hidderLadderSpecialistCooldown = 45
+#The cost of Adrenaline Points to use the Ladder Specialist, by Hidders. (Type of INT. Range of 1~100.)
+#Range: 1 ~ 100
+hidderLadderSpecialistAdrenalineCost = 7
+#The cooldown (seconds) for use the Sound Bait, by Hidders. (Type of INT. Range of 1~600.)
+#Range: 1 ~ 600
+hidderSoundBaitCooldown = 100
+#The cost of Adrenaline Points to use the Sound Bait, by Hidders. (Type of INT. Range of 1~100.)
+#Range: 1 ~ 100
+hidderSoundBaitAdrenalineCost = 5
+#The cooldown (seconds) for use the Breathing Underwater, by Hidders. (Type of INT. Range of 1~600.)
+#Range: 1 ~ 600
+hidderBreathingUnderwaterCooldown = 60
+#The cost of Adrenaline Points to use the Breathing Underwater, by Hidders. (Type of INT. Range of 1~100.)
+#Range: 1 ~ 100
+hidderBreathingUnderwaterAdrenalineCost = 2
+

@@ -1,0 +1,14 @@
+
+[General]
+	#Bypass the blocking when a player is an OP.
+	opBypass = false
+	#Bypass the blocking when a player is in creative mode.
+	creativeBypass = true
+	#Prevent these BLOCKS from being interacted with entirely (Only works if configured on client as well as server). If dimensions are desired, syntax is "modid:block$dimensions"
+	no-interact = ["minecraft:bedrock", "minecraft:air", "minecraft:oak_trapdoor", "minecraft:spruce_trapdoor", "minecraft:birch_trapdoor", "minecraft:jungle_trapdoor", "minecraft:acacia_trapdoor", "minecraft:dark_oak_trapdoor", "minecraft:crimson_trapdoor", "minecraft:warped_trapdoor", "minecraft:bamboo_trapdoor", "minecraft:mangrove_trapdoor", "minecraft:cherry_trapdoor"]
+	#BLOCK id's in this list will not be harvestable. If dimensions are desired, syntax is "modid:block$dimension"
+	no-harvest = ["minecraft:bedrock", "minecraft:air"]
+	#BLOCK id's in this list will not be placeable and
+	#will not spawn in the world nor return to the player. If dimensions are desired, syntax is "modid:block$dimensions"
+	no-place = ["minecraft:bedrock", "minecraft:air"]
+
