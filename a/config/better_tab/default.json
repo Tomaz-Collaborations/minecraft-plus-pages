@@ -1,0 +1,38 @@
+{
+  "tab_settings": {
+    "tab": {
+      "enable_player_icon": true,
+      "maximum_columns": 2,
+      "maximum_rows": 20
+    },
+    "ping": {
+      "enable_numerical_ping": true,
+      "numerical_ping_format": "{ping}",
+      "ping_text_scale": 0.7
+    },
+    "footer": {
+      "enable_footer_info": true,
+      "footer_info_format": "\u00267TPS: {tps} \u00267PING: {ping}\u00267ms"
+    }
+  },
+  "tps_color": {
+    "tps_thresholds": {
+      "\u003e19_tps": "#FF55FF55",
+      "\u003e18_tps": "#FFFFFF55",
+      "\u003e16_tps": "#FFFFAA00",
+      "\u003e10_tps": "#FFFF5555",
+      "≤10_tps": "#FFAA0000"
+    }
+  },
+  "ping_color": {
+    "ping_thresholds": {
+      "n/a": "#FF555555",
+      "\u003c100ms": "#FF55FF55",
+      "\u003c200ms": "#FFFFFF55",
+      "\u003c300ms": "#FFFFAA00",
+      "\u003c500ms": "#FFFF5555",
+      "≥500ms": "#FFAA0000"
+    }
+  },
+  "_keybinds": {}
+}
